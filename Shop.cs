@@ -16,5 +16,23 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
         }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+            new StartPage().Show();
+        }
+
+        private void trackBar1_DragDrop(object sender, DragEventArgs e)
+        {
+            String priceVal = trackBar1.Value.ToString();
+            priceLabel.Text = priceVal;
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            String priceVal = trackBar1.Value.ToString();
+            priceLabel.Text = priceVal;
+        }
     }
 }

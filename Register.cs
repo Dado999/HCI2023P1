@@ -20,6 +20,13 @@ namespace Damir_Filipovic_HCI2023
         private void registerButton_Click(object sender, EventArgs e)
         {
             new Shop().Show();
+            this.Close();
+        }
+
+        private void logoutBtn_Click(object sender, EventArgs e)
+        {
+            ActiveForm.Close();
+            new StartPage().Show();
         }
     }
 }
