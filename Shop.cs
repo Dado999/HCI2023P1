@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,7 @@ namespace Damir_Filipovic_HCI2023
         public Shop()
         {
             InitializeComponent();
+            Program.UpdateTheme(this);
         }
 
         private void logoutBtn_Click(object sender, EventArgs e)
@@ -33,6 +35,18 @@ namespace Damir_Filipovic_HCI2023
         {
             String priceVal = trackBar1.Value.ToString();
             priceLabel.Text = priceVal;
+        }
+
+        private void settingsBtn_Click(object sender, EventArgs e)
+        {
+            Settings set = new Settings();
+            set.Show();
+            this.Close();
+        }
+
+        private void Shop_Enter(object sender, EventArgs e)
+        {
+            MessageBox.Show("This is the main form again!");
         }
     }
 }

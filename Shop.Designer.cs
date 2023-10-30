@@ -50,7 +50,6 @@
             // 
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -69,9 +68,8 @@
             this.splitContainer1.Panel2.Controls.Add(this.orderBtn);
             this.splitContainer1.Panel2.Controls.Add(this.settingsBtn);
             this.splitContainer1.Panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.splitContainer1.Size = new System.Drawing.Size(1445, 690);
-            this.splitContainer1.SplitterDistance = 195;
-            this.splitContainer1.SplitterWidth = 5;
+            this.splitContainer1.Size = new System.Drawing.Size(1084, 561);
+            this.splitContainer1.SplitterDistance = 146;
             this.splitContainer1.TabIndex = 0;
             // 
             // priceLabel
@@ -80,10 +78,9 @@
             this.priceLabel.BackColor = System.Drawing.Color.White;
             this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel.ForeColor = System.Drawing.Color.Black;
-            this.priceLabel.Location = new System.Drawing.Point(68, 556);
-            this.priceLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.priceLabel.Location = new System.Drawing.Point(51, 452);
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(56, 32);
+            this.priceLabel.Size = new System.Drawing.Size(42, 26);
             this.priceLabel.TabIndex = 21;
             this.priceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -96,10 +93,9 @@
             this.registerButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.registerButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.registerButton.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.registerButton.Location = new System.Drawing.Point(28, 641);
-            this.registerButton.Margin = new System.Windows.Forms.Padding(4);
+            this.registerButton.Location = new System.Drawing.Point(21, 521);
             this.registerButton.Name = "registerButton";
-            this.registerButton.Size = new System.Drawing.Size(140, 34);
+            this.registerButton.Size = new System.Drawing.Size(105, 28);
             this.registerButton.TabIndex = 20;
             this.registerButton.Text = "Filter";
             this.registerButton.UseVisualStyleBackColor = false;
@@ -107,13 +103,12 @@
             // trackBar1
             // 
             this.trackBar1.BackColor = System.Drawing.Color.White;
-            this.trackBar1.Location = new System.Drawing.Point(68, 308);
-            this.trackBar1.Margin = new System.Windows.Forms.Padding(4);
+            this.trackBar1.Location = new System.Drawing.Point(51, 250);
             this.trackBar1.Maximum = 1000;
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Orientation = System.Windows.Forms.Orientation.Vertical;
             this.trackBar1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.trackBar1.Size = new System.Drawing.Size(56, 244);
+            this.trackBar1.Size = new System.Drawing.Size(45, 198);
             this.trackBar1.SmallChange = 20;
             this.trackBar1.TabIndex = 3;
             this.trackBar1.Scroll += new System.EventHandler(this.trackBar1_Scroll);
@@ -123,10 +118,9 @@
             // 
             this.comboBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(28, 263);
-            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox2.Location = new System.Drawing.Point(21, 214);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(139, 25);
+            this.comboBox2.Size = new System.Drawing.Size(105, 21);
             this.comboBox2.TabIndex = 2;
             this.comboBox2.Text = "Brand";
             // 
@@ -140,10 +134,9 @@
             "HDD",
             "SDD",
             "Motherboards"});
-            this.comboBox1.Location = new System.Drawing.Point(28, 182);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Location = new System.Drawing.Point(21, 148);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(139, 25);
+            this.comboBox1.Size = new System.Drawing.Size(105, 21);
             this.comboBox1.TabIndex = 1;
             this.comboBox1.Text = "Category";
             // 
@@ -151,10 +144,9 @@
             // 
             this.pictureBox1.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.Logo;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(28, 15);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(21, 12);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(140, 130);
+            this.pictureBox1.Size = new System.Drawing.Size(105, 106);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -170,12 +162,11 @@
             this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.logoutBtn.Location = new System.Drawing.Point(1065, 15);
-            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.logoutBtn.MaximumSize = new System.Drawing.Size(50, 39);
-            this.logoutBtn.MinimumSize = new System.Drawing.Size(50, 39);
+            this.logoutBtn.Location = new System.Drawing.Point(798, 12);
+            this.logoutBtn.MaximumSize = new System.Drawing.Size(38, 32);
+            this.logoutBtn.MinimumSize = new System.Drawing.Size(38, 32);
             this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(50, 39);
+            this.logoutBtn.Size = new System.Drawing.Size(38, 32);
             this.logoutBtn.TabIndex = 8;
             this.logoutBtn.UseVisualStyleBackColor = false;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
@@ -192,12 +183,11 @@
             this.orderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.orderBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.orderBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.orderBtn.Location = new System.Drawing.Point(1123, 15);
-            this.orderBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.orderBtn.MaximumSize = new System.Drawing.Size(50, 39);
-            this.orderBtn.MinimumSize = new System.Drawing.Size(50, 39);
+            this.orderBtn.Location = new System.Drawing.Point(842, 12);
+            this.orderBtn.MaximumSize = new System.Drawing.Size(38, 32);
+            this.orderBtn.MinimumSize = new System.Drawing.Size(38, 32);
             this.orderBtn.Name = "orderBtn";
-            this.orderBtn.Size = new System.Drawing.Size(50, 39);
+            this.orderBtn.Size = new System.Drawing.Size(38, 32);
             this.orderBtn.TabIndex = 7;
             this.orderBtn.UseVisualStyleBackColor = false;
             // 
@@ -215,24 +205,24 @@
             this.settingsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.settingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.settingsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.settingsBtn.Location = new System.Drawing.Point(1182, 15);
-            this.settingsBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.settingsBtn.Location = new System.Drawing.Point(886, 12);
             this.settingsBtn.Name = "settingsBtn";
-            this.settingsBtn.Size = new System.Drawing.Size(49, 39);
+            this.settingsBtn.Size = new System.Drawing.Size(36, 32);
             this.settingsBtn.TabIndex = 6;
             this.settingsBtn.UseVisualStyleBackColor = false;
+            this.settingsBtn.Click += new System.EventHandler(this.settingsBtn_Click);
             // 
             // Shop
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1445, 690);
+            this.ClientSize = new System.Drawing.Size(1084, 561);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Shop";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Shop";
+            this.Enter += new System.EventHandler(this.Shop_Enter);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel1.PerformLayout();
             this.splitContainer1.Panel2.ResumeLayout(false);
