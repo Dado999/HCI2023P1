@@ -9,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
+using System.Xml.Linq;
 
 namespace Damir_Filipovic_HCI2023
 {
@@ -33,18 +35,13 @@ namespace Damir_Filipovic_HCI2023
                 if (createUser() == 1)
                 {
                     MessageBox.Show("Successful registration", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    Program.currentUser = new User(nameLabel.Text, surnameLabel.Text, usernameRegLabel.Text, passwordRegLabel.Text, numberLabel.Text, cityLabel.Text,"English","Light");
                     Shop shp = new Shop();
                     shp.Show();
-                    this.Close();
+                    this.Hide();
                 }
 
             }
-        }
-
-        private void logoutBtn_Click(object sender, EventArgs e)
-        {
-            ActiveForm.Close();
-            new StartPage().Show();
         }
         private int createUser()
         {
@@ -71,6 +68,11 @@ namespace Damir_Filipovic_HCI2023
                 return -1;
             }
             return 1;
+        }
+
+        private void Register_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            new StartPage().Show();
         }
     }
 }

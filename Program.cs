@@ -62,8 +62,8 @@ namespace Damir_Filipovic_HCI2023
                     else if (control is SplitContainer)
                     {
                         SplitContainer splitContainer = (SplitContainer)control;
-                        splitContainer.Panel1.BackColor = Color.Black;
-                        splitContainer.Panel2.BackColor = Color.Silver;
+                        splitContainer.Panel1.BackColor = Color.Silver;
+                        splitContainer.Panel2.BackColor = Color.Black;
                     }
                 }
             }

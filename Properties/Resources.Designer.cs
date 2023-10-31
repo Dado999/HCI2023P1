@@ -73,6 +73,36 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cart_icon_28360__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("cart-icon-28360 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_icon_16059__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("circle-icon-16059 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap circle_icon_16059__1___1_1 {
+            get {
+                object obj = ResourceManager.GetObject("circle-icon-16059 (1) (1)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap computerLogo {
             get {
                 object obj = ResourceManager.GetObject("computerLogo", resourceCulture);
@@ -103,9 +133,69 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exit_icon_4621 {
+            get {
+                object obj = ResourceManager.GetObject("exit-icon-4621", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_icon_4621__1_ {
+            get {
+                object obj = ResourceManager.GetObject("exit-icon-4621 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap exit_icon_4621__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("exit-icon-4621 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap game_icon_png_4481__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("game-icon-png-4481 (1) (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap gbFlag {
             get {
                 object obj = ResourceManager.GetObject("gbFlag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap graphics58x58_58x58__1_ {
+            get {
+                object obj = ResourceManager.GetObject("graphics58x58_58x58 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap laptop_png_6775__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("laptop-png-6775 (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -153,6 +243,26 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap printer_icon_988__1_ {
+            get {
+                object obj = ResourceManager.GetObject("printer-icon-988 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap printer_icon_988__2_ {
+            get {
+                object obj = ResourceManager.GetObject("printer-icon-988 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap rsFlag {
             get {
                 object obj = ResourceManager.GetObject("rsFlag", resourceCulture);
@@ -166,6 +276,16 @@ namespace Damir_Filipovic_HCI2023.Properties {
         internal static System.Drawing.Bitmap settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap settings_icon_14949__1___1_ {
+            get {
+                object obj = ResourceManager.GetObject("settings-icon-14949 (1) (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +326,16 @@ namespace Damir_Filipovic_HCI2023.Properties {
         internal static System.Drawing.Bitmap spanishFlag {
             get {
                 object obj = ResourceManager.GetObject("spanishFlag", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap storage_icon_6658__1_ {
+            get {
+                object obj = ResourceManager.GetObject("storage-icon-6658 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
