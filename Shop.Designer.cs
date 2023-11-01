@@ -63,20 +63,20 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.storageBtn = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
+            this.gamingBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.systemsBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.cartValueCurrentLabel = new System.Windows.Forms.Label();
             this.cartBtn = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.settingsBtn = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
             this.logoutBtn = new System.Windows.Forms.Button();
+            this.layoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.componentsTimer = new System.Windows.Forms.Timer(this.components);
             this.peripheralsTimer = new System.Windows.Forms.Timer(this.components);
             this.storageTimer = new System.Windows.Forms.Timer(this.components);
-            this.layoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.cartValueCurrentLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -122,12 +122,13 @@
             // 
             this.splitContainer1.Panel2.Controls.Add(this.layoutPanel);
             this.splitContainer1.Panel2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.splitContainer1.Size = new System.Drawing.Size(984, 561);
-            this.splitContainer1.SplitterDistance = 210;
+            this.splitContainer1.Size = new System.Drawing.Size(1134, 561);
+            this.splitContainer1.SplitterDistance = 242;
             this.splitContainer1.TabIndex = 0;
             // 
             // flowLayoutPanel1
             // 
+            this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
             this.flowLayoutPanel1.Controls.Add(this.componentsPanel);
             this.flowLayoutPanel1.Controls.Add(this.peripheralsPanel);
@@ -140,7 +141,7 @@
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(210, 561);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(242, 561);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // componentsPanel
@@ -556,51 +557,53 @@
             // 
             // panel6
             // 
-            this.panel6.Controls.Add(this.button5);
+            this.panel6.Controls.Add(this.gamingBtn);
             this.panel6.Location = new System.Drawing.Point(3, 182);
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(200, 57);
             this.panel6.TabIndex = 5;
             // 
-            // button5
+            // gamingBtn
             // 
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.game_icon_png_4481__1___1_;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(-14, -13);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(234, 80);
-            this.button5.TabIndex = 22;
-            this.button5.Text = "         Gaming";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
+            this.gamingBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.gamingBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gamingBtn.ForeColor = System.Drawing.Color.White;
+            this.gamingBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.game_icon_png_4481__1___1_;
+            this.gamingBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.gamingBtn.Location = new System.Drawing.Point(-14, -13);
+            this.gamingBtn.Name = "gamingBtn";
+            this.gamingBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.gamingBtn.Size = new System.Drawing.Size(234, 80);
+            this.gamingBtn.TabIndex = 22;
+            this.gamingBtn.Text = "         Gaming";
+            this.gamingBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.gamingBtn.UseVisualStyleBackColor = true;
+            this.gamingBtn.Click += new System.EventHandler(this.gamingBtn_Click);
             // 
             // panel5
             // 
-            this.panel5.Controls.Add(this.button4);
+            this.panel5.Controls.Add(this.systemsBtn);
             this.panel5.Location = new System.Drawing.Point(3, 245);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(200, 57);
             this.panel5.TabIndex = 4;
             // 
-            // button4
+            // systemsBtn
             // 
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.laptop_png_6775__1___1_;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(-14, -18);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(234, 80);
-            this.button4.TabIndex = 22;
-            this.button4.Text = "         Systems";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.systemsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.systemsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.systemsBtn.ForeColor = System.Drawing.Color.White;
+            this.systemsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.laptop_png_6775__1___1_;
+            this.systemsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.systemsBtn.Location = new System.Drawing.Point(-14, -18);
+            this.systemsBtn.Name = "systemsBtn";
+            this.systemsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.systemsBtn.Size = new System.Drawing.Size(234, 80);
+            this.systemsBtn.TabIndex = 22;
+            this.systemsBtn.Text = "         Systems";
+            this.systemsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.systemsBtn.UseVisualStyleBackColor = true;
+            this.systemsBtn.Click += new System.EventHandler(this.systemsBtn_Click);
             // 
             // panel1
             // 
@@ -610,6 +613,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 57);
             this.panel1.TabIndex = 6;
+            // 
+            // cartValueCurrentLabel
+            // 
+            this.cartValueCurrentLabel.AutoSize = true;
+            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
+            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
+            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
+            this.cartValueCurrentLabel.Size = new System.Drawing.Size(18, 20);
+            this.cartValueCurrentLabel.TabIndex = 23;
+            this.cartValueCurrentLabel.Text = "0";
             // 
             // cartBtn
             // 
@@ -678,6 +692,16 @@
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click_1);
             // 
+            // layoutPanel
+            // 
+            this.layoutPanel.AutoScroll = true;
+            this.layoutPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.layoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutPanel.Location = new System.Drawing.Point(0, 0);
+            this.layoutPanel.Name = "layoutPanel";
+            this.layoutPanel.Size = new System.Drawing.Size(888, 561);
+            this.layoutPanel.TabIndex = 0;
+            // 
             // componentsTimer
             // 
             this.componentsTimer.Interval = 10;
@@ -693,31 +717,11 @@
             this.storageTimer.Interval = 10;
             this.storageTimer.Tick += new System.EventHandler(this.storageTimer_Tick);
             // 
-            // layoutPanel
-            // 
-            this.layoutPanel.AutoScroll = true;
-            this.layoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.layoutPanel.Name = "layoutPanel";
-            this.layoutPanel.Size = new System.Drawing.Size(770, 561);
-            this.layoutPanel.TabIndex = 0;
-            // 
-            // cartValueCurrentLabel
-            // 
-            this.cartValueCurrentLabel.AutoSize = true;
-            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
-            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
-            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
-            this.cartValueCurrentLabel.Size = new System.Drawing.Size(77, 20);
-            this.cartValueCurrentLabel.TabIndex = 23;
-            this.cartValueCurrentLabel.Text = "cartValue";
-            // 
             // Shop
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(984, 561);
+            this.ClientSize = new System.Drawing.Size(1134, 561);
             this.Controls.Add(this.splitContainer1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "Shop";
@@ -764,9 +768,9 @@
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Button storageBtn;
         private System.Windows.Forms.Panel panel5;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button systemsBtn;
         private System.Windows.Forms.Panel panel6;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button gamingBtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cartBtn;
         private System.Windows.Forms.Panel panel7;

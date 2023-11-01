@@ -61,6 +61,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Product.cs" />
     <Compile Include="Register.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,6 +207,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\circle-icon-16059 %281%29 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Acer_Aspire_5-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AMD_Ryzen_Threadripper-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addToCart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-green-plus-sign-simple-logo-image_1082145.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-green-plus-sign-simple-logo-image_1082145 %281%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

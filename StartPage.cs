@@ -57,9 +57,7 @@ namespace Damir_Filipovic_HCI2023
                             if(username == usernameField.Text && password == passwordField.Text) {
                                 Program.currentUser = new User(name, surname, username, password, phoneNumber, city, language, theme);
                                 Shop shp = new Shop();
-                                shp.Show();
-                                MessageBox.Show("Logged in successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                                shp.Show();     
                                 this.Hide();
                             }
                             else if(password != passwordField.Text)

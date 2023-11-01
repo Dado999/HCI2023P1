@@ -63,6 +63,36 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Acer_Aspire_5_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Acer_Aspire_5-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap addToCart {
+            get {
+                object obj = ResourceManager.GetObject("addToCart", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap AMD_Ryzen_Threadripper_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("AMD_Ryzen_Threadripper-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backArrow {
             get {
                 object obj = ResourceManager.GetObject("backArrow", resourceCulture);
@@ -236,6 +266,26 @@ namespace Damir_Filipovic_HCI2023.Properties {
         internal static System.Drawing.Bitmap PCLogo {
             get {
                 object obj = ResourceManager.GetObject("PCLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_green_plus_sign_simple_logo_image_1082145 {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-green-plus-sign-simple-logo-image_1082145", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pngtree_green_plus_sign_simple_logo_image_1082145__1_ {
+            get {
+                object obj = ResourceManager.GetObject("pngtree-green-plus-sign-simple-logo-image_1082145 (1)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
