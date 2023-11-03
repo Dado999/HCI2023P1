@@ -63,9 +63,49 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _90194b7f2ca68a3d80dc41a6e20ae1de {
+            get {
+                object obj = ResourceManager.GetObject("90194b7f2ca68a3d80dc41a6e20ae1de", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _90194b7f2ca68a3d80dc41a6e20ae1de_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("90194b7f2ca68a3d80dc41a6e20ae1de-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _90194b7f2ca68a3d80dc41a6e20ae1de_removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("90194b7f2ca68a3d80dc41a6e20ae1de-removebg-preview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Acer_Aspire_5_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("Acer_Aspire_5-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Acer_Aspire_5_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Acer_Aspire_5-removebg-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -163,6 +203,26 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap download {
+            get {
+                object obj = ResourceManager.GetObject("download", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap exit_icon_4621 {
             get {
                 object obj = ResourceManager.GetObject("exit-icon-4621", resourceCulture);
@@ -216,6 +276,16 @@ namespace Damir_Filipovic_HCI2023.Properties {
         internal static System.Drawing.Bitmap graphics58x58_58x58__1_ {
             get {
                 object obj = ResourceManager.GetObject("graphics58x58_58x58 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_1251586784_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-1251586784-612x612", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -323,6 +393,26 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap search {
+            get {
+                object obj = ResourceManager.GetObject("search", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_logo {
+            get {
+                object obj = ResourceManager.GetObject("search logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap settings {
             get {
                 object obj = ResourceManager.GetObject("settings", resourceCulture);
@@ -386,6 +476,16 @@ namespace Damir_Filipovic_HCI2023.Properties {
         internal static System.Drawing.Bitmap storage_icon_6658__1_ {
             get {
                 object obj = ResourceManager.GetObject("storage-icon-6658 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap trashBin {
+            get {
+                object obj = ResourceManager.GetObject("trashBin", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

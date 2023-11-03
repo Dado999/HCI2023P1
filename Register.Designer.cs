@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.logoutBtn = new System.Windows.Forms.Button();
             this.registerButton = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
@@ -65,7 +64,6 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.logoutBtn);
             this.splitContainer1.Panel2.Controls.Add(this.registerButton);
             this.splitContainer1.Panel2.Controls.Add(this.label5);
             this.splitContainer1.Panel2.Controls.Add(this.label4);
@@ -83,26 +81,6 @@
             this.splitContainer1.Size = new System.Drawing.Size(684, 461);
             this.splitContainer1.SplitterDistance = 237;
             this.splitContainer1.TabIndex = 0;
-            // 
-            // logoutBtn
-            // 
-            this.logoutBtn.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.logoutBtn.BackColor = System.Drawing.Color.White;
-            this.logoutBtn.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.logout;
-            this.logoutBtn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.logoutBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.logoutBtn.FlatAppearance.BorderSize = 3;
-            this.logoutBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(150)))), ((int)(((byte)(224)))));
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
-            this.logoutBtn.Location = new System.Drawing.Point(393, 12);
-            this.logoutBtn.MaximumSize = new System.Drawing.Size(38, 32);
-            this.logoutBtn.MinimumSize = new System.Drawing.Size(38, 32);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(38, 32);
-            this.logoutBtn.TabIndex = 20;
-            this.logoutBtn.UseVisualStyleBackColor = false;
             // 
             // registerButton
             // 
@@ -285,6 +263,5 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label userNameLabel;
         private System.Windows.Forms.Button registerButton;
-        private System.Windows.Forms.Button logoutBtn;
     }
 }

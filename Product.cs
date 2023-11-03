@@ -13,14 +13,16 @@ namespace Damir_Filipovic_HCI2023
         public int quantity { get; set; }
         public string name { get; set; }
         public PictureBox picture { get; set; }
-        public int clickLimit = 0;
+        public string pathToPicture { get; set; }
 
-        public Product(string name,int price, int quantity,PictureBox picture)
+        public int clickLimit = 0;
+        public Product(string name,int price, int quantity,PictureBox picture,string pathToPicture)
         {
             this.name = name;
             this.price = price;
             this.quantity = quantity;
             this.picture = picture;
+            this.pathToPicture = pathToPicture;
         }
     }
 }

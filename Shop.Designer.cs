@@ -31,57 +31,72 @@
             this.components = new System.ComponentModel.Container();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.componentsPanel = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.componentPSBtn = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.componentMotherboardBtn = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.componentsRAMBtn = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.componentsCpuBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.componentsGCBtn = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.componentsButton = new System.Windows.Forms.Button();
             this.peripheralsPanel = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.peripheralsHeadphonesBtn = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.peripheralsSpeakersBtn = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.peripheralsKeyboardBtn = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.peripheralsMouseBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.peripheralsBtn = new System.Windows.Forms.Button();
             this.storagePanel = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.storageSSDBtn = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.storageHDDBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.storageBtn = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.gamingBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.systemsBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.cartValueCurrentLabel = new System.Windows.Forms.Label();
-            this.cartBtn = new System.Windows.Forms.Button();
-            this.panel7 = new System.Windows.Forms.Panel();
-            this.settingsBtn = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.logoutBtn = new System.Windows.Forms.Button();
+            this.sortPanel = new System.Windows.Forms.Panel();
+            this.highLowBtn = new System.Windows.Forms.Button();
+            this.lowHighBtn = new System.Windows.Forms.Button();
+            this.sortBtn = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.layoutPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.componentsTimer = new System.Windows.Forms.Timer(this.components);
             this.peripheralsTimer = new System.Windows.Forms.Timer(this.components);
             this.storageTimer = new System.Windows.Forms.Timer(this.components);
+            this.sortingTimer = new System.Windows.Forms.Timer(this.components);
+            this.spanishLanguage = new System.Windows.Forms.PictureBox();
+            this.serbianLanguage = new System.Windows.Forms.PictureBox();
+            this.englishLanguage = new System.Windows.Forms.PictureBox();
+            this.contrastTheme = new System.Windows.Forms.PictureBox();
+            this.darkTheme = new System.Windows.Forms.PictureBox();
+            this.lightTheme = new System.Windows.Forms.PictureBox();
+            this.componentPSBtn = new System.Windows.Forms.Button();
+            this.componentMotherboardBtn = new System.Windows.Forms.Button();
+            this.componentsRAMBtn = new System.Windows.Forms.Button();
+            this.componentsCpuBtn = new System.Windows.Forms.Button();
+            this.componentsGCBtn = new System.Windows.Forms.Button();
+            this.componentsButton = new System.Windows.Forms.Button();
+            this.peripheralsHeadphonesBtn = new System.Windows.Forms.Button();
+            this.peripheralsSpeakersBtn = new System.Windows.Forms.Button();
+            this.peripheralsKeyboardBtn = new System.Windows.Forms.Button();
+            this.peripheralsMouseBtn = new System.Windows.Forms.Button();
+            this.peripheralsBtn = new System.Windows.Forms.Button();
+            this.storageSSDBtn = new System.Windows.Forms.Button();
+            this.storageHDDBtn = new System.Windows.Forms.Button();
+            this.storageBtn = new System.Windows.Forms.Button();
+            this.gamingBtn = new System.Windows.Forms.Button();
+            this.systemsBtn = new System.Windows.Forms.Button();
+            this.cartBtn = new System.Windows.Forms.Button();
+            this.logoutBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
+            this.panel14.SuspendLayout();
             this.componentsPanel.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -102,8 +117,16 @@
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel1.SuspendLayout();
-            this.panel7.SuspendLayout();
             this.panel8.SuspendLayout();
+            this.sortPanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -120,6 +143,9 @@
             // 
             // splitContainer1.Panel2
             // 
+            this.splitContainer1.Panel2.Controls.Add(this.pictureBox2);
+            this.splitContainer1.Panel2.Controls.Add(this.sortPanel);
+            this.splitContainer1.Panel2.Controls.Add(this.textBox1);
             this.splitContainer1.Panel2.Controls.Add(this.layoutPanel);
             this.splitContainer1.Panel2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.splitContainer1.Size = new System.Drawing.Size(1134, 561);
@@ -130,19 +156,32 @@
             // 
             this.flowLayoutPanel1.AutoScroll = true;
             this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.flowLayoutPanel1.Controls.Add(this.panel14);
             this.flowLayoutPanel1.Controls.Add(this.componentsPanel);
             this.flowLayoutPanel1.Controls.Add(this.peripheralsPanel);
             this.flowLayoutPanel1.Controls.Add(this.storagePanel);
             this.flowLayoutPanel1.Controls.Add(this.panel6);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
             this.flowLayoutPanel1.Controls.Add(this.panel1);
-            this.flowLayoutPanel1.Controls.Add(this.panel7);
             this.flowLayoutPanel1.Controls.Add(this.panel8);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 0);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(242, 561);
             this.flowLayoutPanel1.TabIndex = 0;
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.spanishLanguage);
+            this.panel14.Controls.Add(this.serbianLanguage);
+            this.panel14.Controls.Add(this.englishLanguage);
+            this.panel14.Controls.Add(this.contrastTheme);
+            this.panel14.Controls.Add(this.darkTheme);
+            this.panel14.Controls.Add(this.lightTheme);
+            this.panel14.Location = new System.Drawing.Point(3, 3);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(200, 54);
+            this.panel14.TabIndex = 9;
             // 
             // componentsPanel
             // 
@@ -153,7 +192,7 @@
             this.componentsPanel.Controls.Add(this.panel10);
             this.componentsPanel.Controls.Add(this.panel2);
             this.componentsPanel.Controls.Add(this.panel9);
-            this.componentsPanel.Location = new System.Drawing.Point(3, 3);
+            this.componentsPanel.Location = new System.Drawing.Point(3, 63);
             this.componentsPanel.MaximumSize = new System.Drawing.Size(200, 267);
             this.componentsPanel.MinimumSize = new System.Drawing.Size(200, 54);
             this.componentsPanel.Name = "componentsPanel";
@@ -167,6 +206,355 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(200, 40);
             this.panel13.TabIndex = 7;
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.componentMotherboardBtn);
+            this.panel12.Location = new System.Drawing.Point(2, 183);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(200, 40);
+            this.panel12.TabIndex = 6;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.componentsRAMBtn);
+            this.panel11.Location = new System.Drawing.Point(2, 143);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(200, 40);
+            this.panel11.TabIndex = 5;
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.componentsCpuBtn);
+            this.panel10.Location = new System.Drawing.Point(2, 103);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(200, 40);
+            this.panel10.TabIndex = 4;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.componentsGCBtn);
+            this.panel2.Location = new System.Drawing.Point(2, 63);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(200, 40);
+            this.panel2.TabIndex = 3;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.componentsButton);
+            this.panel9.Location = new System.Drawing.Point(3, 3);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(200, 57);
+            this.panel9.TabIndex = 2;
+            // 
+            // peripheralsPanel
+            // 
+            this.peripheralsPanel.Controls.Add(this.panel18);
+            this.peripheralsPanel.Controls.Add(this.panel17);
+            this.peripheralsPanel.Controls.Add(this.panel16);
+            this.peripheralsPanel.Controls.Add(this.panel15);
+            this.peripheralsPanel.Controls.Add(this.panel3);
+            this.peripheralsPanel.Location = new System.Drawing.Point(3, 123);
+            this.peripheralsPanel.MaximumSize = new System.Drawing.Size(200, 289);
+            this.peripheralsPanel.MinimumSize = new System.Drawing.Size(200, 54);
+            this.peripheralsPanel.Name = "peripheralsPanel";
+            this.peripheralsPanel.Size = new System.Drawing.Size(200, 54);
+            this.peripheralsPanel.TabIndex = 4;
+            // 
+            // panel18
+            // 
+            this.panel18.BackColor = System.Drawing.Color.Transparent;
+            this.panel18.Controls.Add(this.peripheralsHeadphonesBtn);
+            this.panel18.Location = new System.Drawing.Point(3, 231);
+            this.panel18.Name = "panel18";
+            this.panel18.Size = new System.Drawing.Size(200, 57);
+            this.panel18.TabIndex = 6;
+            // 
+            // panel17
+            // 
+            this.panel17.BackColor = System.Drawing.Color.Transparent;
+            this.panel17.Controls.Add(this.peripheralsSpeakersBtn);
+            this.panel17.Location = new System.Drawing.Point(3, 174);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(200, 57);
+            this.panel17.TabIndex = 5;
+            // 
+            // panel16
+            // 
+            this.panel16.BackColor = System.Drawing.Color.Transparent;
+            this.panel16.Controls.Add(this.peripheralsKeyboardBtn);
+            this.panel16.Location = new System.Drawing.Point(3, 117);
+            this.panel16.Name = "panel16";
+            this.panel16.Size = new System.Drawing.Size(200, 57);
+            this.panel16.TabIndex = 4;
+            // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.Transparent;
+            this.panel15.Controls.Add(this.peripheralsMouseBtn);
+            this.panel15.Location = new System.Drawing.Point(3, 60);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(200, 57);
+            this.panel15.TabIndex = 3;
+            // 
+            // panel3
+            // 
+            this.panel3.BackColor = System.Drawing.Color.Transparent;
+            this.panel3.Controls.Add(this.peripheralsBtn);
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(200, 57);
+            this.panel3.TabIndex = 2;
+            // 
+            // storagePanel
+            // 
+            this.storagePanel.Controls.Add(this.panel20);
+            this.storagePanel.Controls.Add(this.panel19);
+            this.storagePanel.Controls.Add(this.panel4);
+            this.storagePanel.Location = new System.Drawing.Point(3, 183);
+            this.storagePanel.MaximumSize = new System.Drawing.Size(203, 137);
+            this.storagePanel.MinimumSize = new System.Drawing.Size(203, 53);
+            this.storagePanel.Name = "storagePanel";
+            this.storagePanel.Size = new System.Drawing.Size(203, 53);
+            this.storagePanel.TabIndex = 5;
+            // 
+            // panel20
+            // 
+            this.panel20.Controls.Add(this.storageSSDBtn);
+            this.panel20.Location = new System.Drawing.Point(3, 96);
+            this.panel20.Name = "panel20";
+            this.panel20.Size = new System.Drawing.Size(200, 41);
+            this.panel20.TabIndex = 5;
+            // 
+            // panel19
+            // 
+            this.panel19.Controls.Add(this.storageHDDBtn);
+            this.panel19.Location = new System.Drawing.Point(3, 57);
+            this.panel19.Name = "panel19";
+            this.panel19.Size = new System.Drawing.Size(200, 39);
+            this.panel19.TabIndex = 4;
+            // 
+            // panel4
+            // 
+            this.panel4.Controls.Add(this.storageBtn);
+            this.panel4.Location = new System.Drawing.Point(3, 0);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(200, 57);
+            this.panel4.TabIndex = 3;
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.gamingBtn);
+            this.panel6.Location = new System.Drawing.Point(3, 242);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 57);
+            this.panel6.TabIndex = 5;
+            // 
+            // panel5
+            // 
+            this.panel5.Controls.Add(this.systemsBtn);
+            this.panel5.Location = new System.Drawing.Point(3, 305);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 57);
+            this.panel5.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.cartValueCurrentLabel);
+            this.panel1.Controls.Add(this.cartBtn);
+            this.panel1.Location = new System.Drawing.Point(3, 368);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 57);
+            this.panel1.TabIndex = 6;
+            // 
+            // cartValueCurrentLabel
+            // 
+            this.cartValueCurrentLabel.AutoSize = true;
+            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
+            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
+            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
+            this.cartValueCurrentLabel.Size = new System.Drawing.Size(18, 20);
+            this.cartValueCurrentLabel.TabIndex = 23;
+            this.cartValueCurrentLabel.Text = "0";
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.logoutBtn);
+            this.panel8.Controls.Add(this.pictureBox1);
+            this.panel8.Location = new System.Drawing.Point(3, 431);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(200, 57);
+            this.panel8.TabIndex = 8;
+            // 
+            // sortPanel
+            // 
+            this.sortPanel.Controls.Add(this.highLowBtn);
+            this.sortPanel.Controls.Add(this.lowHighBtn);
+            this.sortPanel.Controls.Add(this.sortBtn);
+            this.sortPanel.Controls.Add(this.button1);
+            this.sortPanel.Location = new System.Drawing.Point(18, 9);
+            this.sortPanel.MaximumSize = new System.Drawing.Size(147, 140);
+            this.sortPanel.MinimumSize = new System.Drawing.Size(147, 40);
+            this.sortPanel.Name = "sortPanel";
+            this.sortPanel.Size = new System.Drawing.Size(147, 40);
+            this.sortPanel.TabIndex = 2;
+            // 
+            // highLowBtn
+            // 
+            this.highLowBtn.BackColor = System.Drawing.Color.Orange;
+            this.highLowBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.highLowBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.highLowBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
+            this.highLowBtn.Location = new System.Drawing.Point(-17, 88);
+            this.highLowBtn.Name = "highLowBtn";
+            this.highLowBtn.Size = new System.Drawing.Size(181, 51);
+            this.highLowBtn.TabIndex = 5;
+            this.highLowBtn.Text = "HIGH -> LOW";
+            this.highLowBtn.UseVisualStyleBackColor = false;
+            this.highLowBtn.Click += new System.EventHandler(this.highLowBtn_Click);
+            // 
+            // lowHighBtn
+            // 
+            this.lowHighBtn.BackColor = System.Drawing.Color.Orange;
+            this.lowHighBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lowHighBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lowHighBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
+            this.lowHighBtn.Location = new System.Drawing.Point(-17, 38);
+            this.lowHighBtn.Name = "lowHighBtn";
+            this.lowHighBtn.Size = new System.Drawing.Size(181, 51);
+            this.lowHighBtn.TabIndex = 4;
+            this.lowHighBtn.Text = "LOW -> HIGH";
+            this.lowHighBtn.UseVisualStyleBackColor = false;
+            this.lowHighBtn.Click += new System.EventHandler(this.lowHighBtn_Click);
+            // 
+            // sortBtn
+            // 
+            this.sortBtn.BackColor = System.Drawing.Color.Orange;
+            this.sortBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.sortBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.sortBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
+            this.sortBtn.Location = new System.Drawing.Point(-15, -5);
+            this.sortBtn.Name = "sortBtn";
+            this.sortBtn.Size = new System.Drawing.Size(181, 51);
+            this.sortBtn.TabIndex = 3;
+            this.sortBtn.Text = "SORT";
+            this.sortBtn.UseVisualStyleBackColor = false;
+            this.sortBtn.Click += new System.EventHandler(this.sortBtn_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(-20, -21);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(167, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // textBox1
+            // 
+            this.textBox1.BackColor = System.Drawing.Color.Orange;
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
+            this.textBox1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.textBox1.Location = new System.Drawing.Point(557, 23);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(272, 26);
+            this.textBox1.TabIndex = 1;
+            this.textBox1.Click += new System.EventHandler(this.textBox1_Click);
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // layoutPanel
+            // 
+            this.layoutPanel.AutoScroll = true;
+            this.layoutPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.layoutPanel.Location = new System.Drawing.Point(0, 63);
+            this.layoutPanel.Name = "layoutPanel";
+            this.layoutPanel.Size = new System.Drawing.Size(888, 498);
+            this.layoutPanel.TabIndex = 0;
+            // 
+            // componentsTimer
+            // 
+            this.componentsTimer.Interval = 10;
+            this.componentsTimer.Tick += new System.EventHandler(this.componentsTimer_Tick);
+            // 
+            // peripheralsTimer
+            // 
+            this.peripheralsTimer.Interval = 10;
+            this.peripheralsTimer.Tick += new System.EventHandler(this.peripheralsTimer_Tick);
+            // 
+            // storageTimer
+            // 
+            this.storageTimer.Interval = 10;
+            this.storageTimer.Tick += new System.EventHandler(this.storageTimer_Tick);
+            // 
+            // sortingTimer
+            // 
+            this.sortingTimer.Interval = 10;
+            this.sortingTimer.Tick += new System.EventHandler(this.sortingTimer_Tick);
+            // 
+            // spanishLanguage
+            // 
+            this.spanishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.spanishFlag;
+            this.spanishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.spanishLanguage.Location = new System.Drawing.Point(144, 30);
+            this.spanishLanguage.Name = "spanishLanguage";
+            this.spanishLanguage.Size = new System.Drawing.Size(53, 19);
+            this.spanishLanguage.TabIndex = 5;
+            this.spanishLanguage.TabStop = false;
+            // 
+            // serbianLanguage
+            // 
+            this.serbianLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.rsFlag;
+            this.serbianLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.serbianLanguage.Location = new System.Drawing.Point(71, 30);
+            this.serbianLanguage.Name = "serbianLanguage";
+            this.serbianLanguage.Size = new System.Drawing.Size(53, 19);
+            this.serbianLanguage.TabIndex = 4;
+            this.serbianLanguage.TabStop = false;
+            // 
+            // englishLanguage
+            // 
+            this.englishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.gbFlag;
+            this.englishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.englishLanguage.Location = new System.Drawing.Point(3, 28);
+            this.englishLanguage.Name = "englishLanguage";
+            this.englishLanguage.Size = new System.Drawing.Size(53, 21);
+            this.englishLanguage.TabIndex = 3;
+            this.englishLanguage.TabStop = false;
+            // 
+            // contrastTheme
+            // 
+            this.contrastTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.ContrastTheme;
+            this.contrastTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.contrastTheme.Location = new System.Drawing.Point(144, 3);
+            this.contrastTheme.Name = "contrastTheme";
+            this.contrastTheme.Size = new System.Drawing.Size(53, 19);
+            this.contrastTheme.TabIndex = 2;
+            this.contrastTheme.TabStop = false;
+            this.contrastTheme.Click += new System.EventHandler(this.contrastTheme_Click);
+            // 
+            // darkTheme
+            // 
+            this.darkTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.DarkTheme;
+            this.darkTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.darkTheme.Location = new System.Drawing.Point(71, 3);
+            this.darkTheme.Name = "darkTheme";
+            this.darkTheme.Size = new System.Drawing.Size(53, 19);
+            this.darkTheme.TabIndex = 1;
+            this.darkTheme.TabStop = false;
+            this.darkTheme.Click += new System.EventHandler(this.darkTheme_Click);
+            // 
+            // lightTheme
+            // 
+            this.lightTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.LightTheme;
+            this.lightTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lightTheme.Location = new System.Drawing.Point(3, 3);
+            this.lightTheme.Name = "lightTheme";
+            this.lightTheme.Size = new System.Drawing.Size(53, 19);
+            this.lightTheme.TabIndex = 0;
+            this.lightTheme.TabStop = false;
+            this.lightTheme.Click += new System.EventHandler(this.lightTheme_Click_1);
             // 
             // componentPSBtn
             // 
@@ -186,14 +574,6 @@
             this.componentPSBtn.UseVisualStyleBackColor = false;
             this.componentPSBtn.Click += new System.EventHandler(this.componentPSBtn_Click);
             // 
-            // panel12
-            // 
-            this.panel12.Controls.Add(this.componentMotherboardBtn);
-            this.panel12.Location = new System.Drawing.Point(2, 183);
-            this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(200, 40);
-            this.panel12.TabIndex = 6;
-            // 
             // componentMotherboardBtn
             // 
             this.componentMotherboardBtn.BackColor = System.Drawing.Color.Transparent;
@@ -211,14 +591,6 @@
             this.componentMotherboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.componentMotherboardBtn.UseVisualStyleBackColor = false;
             this.componentMotherboardBtn.Click += new System.EventHandler(this.componentMotherboardBtn_Click);
-            // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.componentsRAMBtn);
-            this.panel11.Location = new System.Drawing.Point(2, 143);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(200, 40);
-            this.panel11.TabIndex = 5;
             // 
             // componentsRAMBtn
             // 
@@ -238,14 +610,6 @@
             this.componentsRAMBtn.UseVisualStyleBackColor = false;
             this.componentsRAMBtn.Click += new System.EventHandler(this.componentsRAMBtn_Click);
             // 
-            // panel10
-            // 
-            this.panel10.Controls.Add(this.componentsCpuBtn);
-            this.panel10.Location = new System.Drawing.Point(2, 103);
-            this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(200, 40);
-            this.panel10.TabIndex = 4;
-            // 
             // componentsCpuBtn
             // 
             this.componentsCpuBtn.BackColor = System.Drawing.Color.Transparent;
@@ -263,14 +627,6 @@
             this.componentsCpuBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.componentsCpuBtn.UseVisualStyleBackColor = false;
             this.componentsCpuBtn.Click += new System.EventHandler(this.componentsCpuBtn_Click);
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.componentsGCBtn);
-            this.panel2.Location = new System.Drawing.Point(2, 63);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(200, 40);
-            this.panel2.TabIndex = 3;
             // 
             // componentsGCBtn
             // 
@@ -290,14 +646,6 @@
             this.componentsGCBtn.UseVisualStyleBackColor = false;
             this.componentsGCBtn.Click += new System.EventHandler(this.componentsGCBtn_Click);
             // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.componentsButton);
-            this.panel9.Location = new System.Drawing.Point(3, 3);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(200, 57);
-            this.panel9.TabIndex = 2;
-            // 
             // componentsButton
             // 
             this.componentsButton.BackColor = System.Drawing.Color.Transparent;
@@ -315,29 +663,6 @@
             this.componentsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.componentsButton.UseVisualStyleBackColor = false;
             this.componentsButton.Click += new System.EventHandler(this.componentsButton_Click);
-            // 
-            // peripheralsPanel
-            // 
-            this.peripheralsPanel.Controls.Add(this.panel18);
-            this.peripheralsPanel.Controls.Add(this.panel17);
-            this.peripheralsPanel.Controls.Add(this.panel16);
-            this.peripheralsPanel.Controls.Add(this.panel15);
-            this.peripheralsPanel.Controls.Add(this.panel3);
-            this.peripheralsPanel.Location = new System.Drawing.Point(3, 63);
-            this.peripheralsPanel.MaximumSize = new System.Drawing.Size(200, 289);
-            this.peripheralsPanel.MinimumSize = new System.Drawing.Size(200, 54);
-            this.peripheralsPanel.Name = "peripheralsPanel";
-            this.peripheralsPanel.Size = new System.Drawing.Size(200, 54);
-            this.peripheralsPanel.TabIndex = 4;
-            // 
-            // panel18
-            // 
-            this.panel18.BackColor = System.Drawing.Color.Transparent;
-            this.panel18.Controls.Add(this.peripheralsHeadphonesBtn);
-            this.panel18.Location = new System.Drawing.Point(3, 231);
-            this.panel18.Name = "panel18";
-            this.panel18.Size = new System.Drawing.Size(200, 57);
-            this.panel18.TabIndex = 6;
             // 
             // peripheralsHeadphonesBtn
             // 
@@ -357,15 +682,6 @@
             this.peripheralsHeadphonesBtn.UseVisualStyleBackColor = false;
             this.peripheralsHeadphonesBtn.Click += new System.EventHandler(this.peripheralsHeadphonesBtn_Click);
             // 
-            // panel17
-            // 
-            this.panel17.BackColor = System.Drawing.Color.Transparent;
-            this.panel17.Controls.Add(this.peripheralsSpeakersBtn);
-            this.panel17.Location = new System.Drawing.Point(3, 174);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(200, 57);
-            this.panel17.TabIndex = 5;
-            // 
             // peripheralsSpeakersBtn
             // 
             this.peripheralsSpeakersBtn.BackColor = System.Drawing.Color.Transparent;
@@ -383,15 +699,6 @@
             this.peripheralsSpeakersBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.peripheralsSpeakersBtn.UseVisualStyleBackColor = false;
             this.peripheralsSpeakersBtn.Click += new System.EventHandler(this.peripheralsSpeakersBtn_Click);
-            // 
-            // panel16
-            // 
-            this.panel16.BackColor = System.Drawing.Color.Transparent;
-            this.panel16.Controls.Add(this.peripheralsKeyboardBtn);
-            this.panel16.Location = new System.Drawing.Point(3, 117);
-            this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(200, 57);
-            this.panel16.TabIndex = 4;
             // 
             // peripheralsKeyboardBtn
             // 
@@ -411,15 +718,6 @@
             this.peripheralsKeyboardBtn.UseVisualStyleBackColor = false;
             this.peripheralsKeyboardBtn.Click += new System.EventHandler(this.peripheralsKeyboardBtn_Click);
             // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.Transparent;
-            this.panel15.Controls.Add(this.peripheralsMouseBtn);
-            this.panel15.Location = new System.Drawing.Point(3, 60);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(200, 57);
-            this.panel15.TabIndex = 3;
-            // 
             // peripheralsMouseBtn
             // 
             this.peripheralsMouseBtn.BackColor = System.Drawing.Color.Transparent;
@@ -437,15 +735,6 @@
             this.peripheralsMouseBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.peripheralsMouseBtn.UseVisualStyleBackColor = false;
             this.peripheralsMouseBtn.Click += new System.EventHandler(this.peripheralsMouseBtn_Click);
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.Color.Transparent;
-            this.panel3.Controls.Add(this.peripheralsBtn);
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(200, 57);
-            this.panel3.TabIndex = 2;
             // 
             // peripheralsBtn
             // 
@@ -465,26 +754,6 @@
             this.peripheralsBtn.UseVisualStyleBackColor = false;
             this.peripheralsBtn.Click += new System.EventHandler(this.peripheralsBtn_Click);
             // 
-            // storagePanel
-            // 
-            this.storagePanel.Controls.Add(this.panel20);
-            this.storagePanel.Controls.Add(this.panel19);
-            this.storagePanel.Controls.Add(this.panel4);
-            this.storagePanel.Location = new System.Drawing.Point(3, 123);
-            this.storagePanel.MaximumSize = new System.Drawing.Size(203, 137);
-            this.storagePanel.MinimumSize = new System.Drawing.Size(203, 53);
-            this.storagePanel.Name = "storagePanel";
-            this.storagePanel.Size = new System.Drawing.Size(203, 53);
-            this.storagePanel.TabIndex = 5;
-            // 
-            // panel20
-            // 
-            this.panel20.Controls.Add(this.storageSSDBtn);
-            this.panel20.Location = new System.Drawing.Point(3, 96);
-            this.panel20.Name = "panel20";
-            this.panel20.Size = new System.Drawing.Size(200, 41);
-            this.panel20.TabIndex = 5;
-            // 
             // storageSSDBtn
             // 
             this.storageSSDBtn.BackColor = System.Drawing.Color.Transparent;
@@ -502,14 +771,6 @@
             this.storageSSDBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.storageSSDBtn.UseVisualStyleBackColor = false;
             this.storageSSDBtn.Click += new System.EventHandler(this.storageSSDBtn_Click);
-            // 
-            // panel19
-            // 
-            this.panel19.Controls.Add(this.storageHDDBtn);
-            this.panel19.Location = new System.Drawing.Point(3, 57);
-            this.panel19.Name = "panel19";
-            this.panel19.Size = new System.Drawing.Size(200, 39);
-            this.panel19.TabIndex = 4;
             // 
             // storageHDDBtn
             // 
@@ -529,14 +790,6 @@
             this.storageHDDBtn.UseVisualStyleBackColor = false;
             this.storageHDDBtn.Click += new System.EventHandler(this.storageHDDBtn_Click);
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.storageBtn);
-            this.panel4.Location = new System.Drawing.Point(3, 0);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(200, 57);
-            this.panel4.TabIndex = 3;
-            // 
             // storageBtn
             // 
             this.storageBtn.BackColor = System.Drawing.Color.Transparent;
@@ -555,14 +808,6 @@
             this.storageBtn.UseVisualStyleBackColor = false;
             this.storageBtn.Click += new System.EventHandler(this.storageBtn_Click);
             // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.gamingBtn);
-            this.panel6.Location = new System.Drawing.Point(3, 182);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 57);
-            this.panel6.TabIndex = 5;
-            // 
             // gamingBtn
             // 
             this.gamingBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -579,14 +824,6 @@
             this.gamingBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.gamingBtn.UseVisualStyleBackColor = true;
             this.gamingBtn.Click += new System.EventHandler(this.gamingBtn_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.systemsBtn);
-            this.panel5.Location = new System.Drawing.Point(3, 245);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 57);
-            this.panel5.TabIndex = 4;
             // 
             // systemsBtn
             // 
@@ -605,26 +842,6 @@
             this.systemsBtn.UseVisualStyleBackColor = true;
             this.systemsBtn.Click += new System.EventHandler(this.systemsBtn_Click);
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.cartValueCurrentLabel);
-            this.panel1.Controls.Add(this.cartBtn);
-            this.panel1.Location = new System.Drawing.Point(3, 308);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 57);
-            this.panel1.TabIndex = 6;
-            // 
-            // cartValueCurrentLabel
-            // 
-            this.cartValueCurrentLabel.AutoSize = true;
-            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
-            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
-            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
-            this.cartValueCurrentLabel.Size = new System.Drawing.Size(18, 20);
-            this.cartValueCurrentLabel.TabIndex = 23;
-            this.cartValueCurrentLabel.Text = "0";
-            // 
             // cartBtn
             // 
             this.cartBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -641,39 +858,6 @@
             this.cartBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.cartBtn.UseVisualStyleBackColor = true;
             this.cartBtn.Click += new System.EventHandler(this.cartBtn_Click);
-            // 
-            // panel7
-            // 
-            this.panel7.Controls.Add(this.settingsBtn);
-            this.panel7.Location = new System.Drawing.Point(3, 371);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(200, 57);
-            this.panel7.TabIndex = 7;
-            // 
-            // settingsBtn
-            // 
-            this.settingsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.settingsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.settingsBtn.ForeColor = System.Drawing.Color.White;
-            this.settingsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.settings_icon_14949__1___1_;
-            this.settingsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingsBtn.Location = new System.Drawing.Point(-14, -13);
-            this.settingsBtn.Name = "settingsBtn";
-            this.settingsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.settingsBtn.Size = new System.Drawing.Size(234, 80);
-            this.settingsBtn.TabIndex = 22;
-            this.settingsBtn.Text = "         Settings";
-            this.settingsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.settingsBtn.UseVisualStyleBackColor = true;
-            this.settingsBtn.Click += new System.EventHandler(this.settingsBtn_Click_1);
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.logoutBtn);
-            this.panel8.Location = new System.Drawing.Point(3, 434);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(200, 57);
-            this.panel8.TabIndex = 8;
             // 
             // logoutBtn
             // 
@@ -692,30 +876,24 @@
             this.logoutBtn.UseVisualStyleBackColor = true;
             this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click_1);
             // 
-            // layoutPanel
+            // pictureBox1
             // 
-            this.layoutPanel.AutoScroll = true;
-            this.layoutPanel.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.layoutPanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.layoutPanel.Location = new System.Drawing.Point(0, 0);
-            this.layoutPanel.Name = "layoutPanel";
-            this.layoutPanel.Size = new System.Drawing.Size(888, 561);
-            this.layoutPanel.TabIndex = 0;
+            this.pictureBox1.Location = new System.Drawing.Point(40, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 9;
+            this.pictureBox1.TabStop = false;
             // 
-            // componentsTimer
+            // pictureBox2
             // 
-            this.componentsTimer.Interval = 10;
-            this.componentsTimer.Tick += new System.EventHandler(this.componentsTimer_Tick);
-            // 
-            // peripheralsTimer
-            // 
-            this.peripheralsTimer.Interval = 10;
-            this.peripheralsTimer.Tick += new System.EventHandler(this.peripheralsTimer_Tick);
-            // 
-            // storageTimer
-            // 
-            this.storageTimer.Interval = 10;
-            this.storageTimer.Tick += new System.EventHandler(this.storageTimer_Tick);
+            this.pictureBox2.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox2.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.download_removebg_preview;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(800, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(23, 18);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
             // Shop
             // 
@@ -729,9 +907,11 @@
             this.Text = "Shop";
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
+            this.panel14.ResumeLayout(false);
             this.componentsPanel.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -753,8 +933,16 @@
             this.panel5.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel7.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
+            this.sortPanel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -773,8 +961,6 @@
         private System.Windows.Forms.Button gamingBtn;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button cartBtn;
-        private System.Windows.Forms.Panel panel7;
-        private System.Windows.Forms.Button settingsBtn;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Button logoutBtn;
         private System.Windows.Forms.Panel panel9;
@@ -809,5 +995,21 @@
         private System.Windows.Forms.Timer storageTimer;
         private System.Windows.Forms.FlowLayoutPanel layoutPanel;
         private System.Windows.Forms.Label cartValueCurrentLabel;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel panel14;
+        private System.Windows.Forms.PictureBox lightTheme;
+        private System.Windows.Forms.PictureBox englishLanguage;
+        private System.Windows.Forms.PictureBox contrastTheme;
+        private System.Windows.Forms.PictureBox darkTheme;
+        private System.Windows.Forms.PictureBox serbianLanguage;
+        private System.Windows.Forms.PictureBox spanishLanguage;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel sortPanel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button highLowBtn;
+        private System.Windows.Forms.Button lowHighBtn;
+        private System.Windows.Forms.Button sortBtn;
+        private System.Windows.Forms.Timer sortingTimer;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

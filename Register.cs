@@ -34,6 +34,17 @@ namespace Damir_Filipovic_HCI2023
             {
                 if (createUser() == 1)
                 {
+                    MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
+                    mySqlConnection.Open();
+                    MySqlCommand command = mySqlConnection.CreateCommand();
+                    command.CommandText = @"SELECT * FROM city WHERE name=@city";
+                    command.Parameters.AddWithValue("@city", cityLabel.Text);
+                    if (command.ExecuteNonQuery() < 0)
+                    {
+                        command.CommandText = @"INSERT INTO city(name) values (@name)";
+                        command.Parameters.AddWithValue("@name", cityLabel.Text);
+                        command.ExecuteNonQuery();
+                    }
                     MessageBox.Show("Successful registration", "Success", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     Program.currentUser = new User(nameLabel.Text, surnameLabel.Text, usernameRegLabel.Text, passwordRegLabel.Text, numberLabel.Text, cityLabel.Text,"English","Light");
                     Shop shp = new Shop();
@@ -67,6 +78,7 @@ namespace Damir_Filipovic_HCI2023
                 MessageBox.Show("Username already exists\n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return -1;
             }
+            conn.Close();
             return 1;
         }
 
