@@ -40,11 +40,18 @@ namespace Damir_Filipovic_HCI2023
         }
         private void orderButton_Click_1(object sender, EventArgs e)
         {
-            adressId = GetAddressID(adressLabel.Text);
-            userId = GetUserId(Program.currentUser.username);
-            createOrder();
-            createOrderedItems();
-            removeItems();
+            try
+            {
+                adressId = GetAddressID(adressLabel.Text);
+                userId = GetUserId(Program.currentUser.username);
+                createOrder();
+                createOrderedItems();
+                removeItems();
+            }
+            catch(MySqlException ex) { MessageBox.Show(ex.Message); }
+
+            MessageBox.Show("Order successful","Thank you for your purchase!",MessageBoxButtons.OK);
+
         }
         private int GetAddressID(string address)
         {
