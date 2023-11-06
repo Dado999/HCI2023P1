@@ -22,14 +22,12 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
         }
-
         private void registerButton_Click(object sender, EventArgs e)
         {
             Register reg = new Register();
             reg.Show();
             this.Hide();
         }
-
         private void logInButton_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(usernameField.Text) || string.IsNullOrEmpty(passwordField.Text))
@@ -96,7 +94,7 @@ namespace Damir_Filipovic_HCI2023
                                     }
                                     else if (rdr.GetInt32("adminSales") == 0 && rdr.GetString("password").Equals(passwordField.Text))
                                     {
-                                        MessageBox.Show("User is a system admin.", "?", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                        new AdminSystem().Show();
                                         Program.currentUser = new User(
                                             rdr.GetString("name"),
                                             rdr.GetString("surname"),
