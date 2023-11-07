@@ -55,7 +55,7 @@ namespace Damir_Filipovic_HCI2023
                             string language = reader.GetString("language");
                             string theme = reader.GetString("theme");
 
-                            if (username == usernameField.Text && password == passwordField.Text)
+                            if (username == usernameField.Text && password == passwordField.Text && reader.GetInt16("userActive")==1)
                             {
                                 Program.currentUser = new User(name, surname, username, password, phoneNumber, city, language, theme);
                                 Shop shp = new Shop();
@@ -64,8 +64,11 @@ namespace Damir_Filipovic_HCI2023
                             }
                             else if (password != passwordField.Text)
                             {
-                                MessageBox.Show("Wrong password", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                                MessageBox.Show("Wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
+                            else
+                                MessageBox.Show("Account doesnt exist!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
                         }
                         else
                         {

@@ -38,21 +38,10 @@
             this.orderBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.addItemPanel = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
-            this.categoryTB = new System.Windows.Forms.TextBox();
             this.panel7 = new System.Windows.Forms.Panel();
             this.addBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.pictureTB = new System.Windows.Forms.TextBox();
-            this.quantityTB = new System.Windows.Forms.TextBox();
-            this.priceTB = new System.Windows.Forms.TextBox();
-            this.nameTB = new System.Windows.Forms.TextBox();
-            this.categoryComboBox = new System.Windows.Forms.ComboBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
             this.orderListPanel = new System.Windows.Forms.Panel();
             this.addItemToInvoiceBtn = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -63,6 +52,17 @@
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.itemsListComboBox = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.categoryComboBox = new System.Windows.Forms.ComboBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.priceTB = new System.Windows.Forms.TextBox();
+            this.quantityTB = new System.Windows.Forms.TextBox();
+            this.pictureTB = new System.Windows.Forms.TextBox();
+            this.categoryTB = new System.Windows.Forms.TextBox();
+            this.nameTB = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -177,7 +177,7 @@
             this.orderBtn.Name = "orderBtn";
             this.orderBtn.Size = new System.Drawing.Size(174, 69);
             this.orderBtn.TabIndex = 1;
-            this.orderBtn.Text = "Order Items";
+            this.orderBtn.Text = "Order/Add Items";
             this.orderBtn.UseVisualStyleBackColor = true;
             this.orderBtn.Click += new System.EventHandler(this.orderBtn_Click);
             // 
@@ -212,24 +212,6 @@
             this.addItemPanel.Size = new System.Drawing.Size(535, 517);
             this.addItemPanel.TabIndex = 6;
             this.addItemPanel.Visible = false;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(201, 364);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(77, 20);
-            this.label6.TabIndex = 13;
-            this.label6.Text = "Category:";
-            // 
-            // categoryTB
-            // 
-            this.categoryTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.categoryTB.Location = new System.Drawing.Point(279, 360);
-            this.categoryTB.Name = "categoryTB";
-            this.categoryTB.Size = new System.Drawing.Size(159, 26);
-            this.categoryTB.TabIndex = 12;
             // 
             // panel7
             // 
@@ -273,88 +255,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(85, 517);
             this.panel6.TabIndex = 9;
-            // 
-            // pictureTB
-            // 
-            this.pictureTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.pictureTB.Location = new System.Drawing.Point(279, 280);
-            this.pictureTB.Name = "pictureTB";
-            this.pictureTB.Size = new System.Drawing.Size(159, 26);
-            this.pictureTB.TabIndex = 8;
-            // 
-            // quantityTB
-            // 
-            this.quantityTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.quantityTB.Location = new System.Drawing.Point(279, 240);
-            this.quantityTB.Name = "quantityTB";
-            this.quantityTB.Size = new System.Drawing.Size(159, 26);
-            this.quantityTB.TabIndex = 7;
-            // 
-            // priceTB
-            // 
-            this.priceTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.priceTB.Location = new System.Drawing.Point(279, 200);
-            this.priceTB.Name = "priceTB";
-            this.priceTB.Size = new System.Drawing.Size(159, 26);
-            this.priceTB.TabIndex = 6;
-            // 
-            // nameTB
-            // 
-            this.nameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.nameTB.Location = new System.Drawing.Point(279, 160);
-            this.nameTB.Name = "nameTB";
-            this.nameTB.Size = new System.Drawing.Size(159, 26);
-            this.nameTB.TabIndex = 5;
-            // 
-            // categoryComboBox
-            // 
-            this.categoryComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.categoryComboBox.FormattingEnabled = true;
-            this.categoryComboBox.Location = new System.Drawing.Point(205, 320);
-            this.categoryComboBox.Name = "categoryComboBox";
-            this.categoryComboBox.Size = new System.Drawing.Size(233, 28);
-            this.categoryComboBox.TabIndex = 4;
-            this.categoryComboBox.Text = "Category";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(201, 284);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(62, 20);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Picture:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(201, 244);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(72, 20);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Quantity:";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(201, 204);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 20);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Price:";
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(201, 164);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 20);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Name:";
             // 
             // orderListPanel
             // 
@@ -446,6 +346,106 @@
             this.itemsListComboBox.TabIndex = 0;
             this.itemsListComboBox.Text = "Product";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(201, 164);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 20);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Name:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(201, 204);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 20);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Price:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(201, 244);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(72, 20);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Quantity:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(201, 284);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(62, 20);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Picture:";
+            // 
+            // categoryComboBox
+            // 
+            this.categoryComboBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoryComboBox.FormattingEnabled = true;
+            this.categoryComboBox.Location = new System.Drawing.Point(205, 320);
+            this.categoryComboBox.Name = "categoryComboBox";
+            this.categoryComboBox.Size = new System.Drawing.Size(233, 28);
+            this.categoryComboBox.TabIndex = 4;
+            this.categoryComboBox.Text = "Category";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(201, 364);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 20);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "Category:";
+            // 
+            // priceTB
+            // 
+            this.priceTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceTB.Location = new System.Drawing.Point(279, 200);
+            this.priceTB.Name = "priceTB";
+            this.priceTB.Size = new System.Drawing.Size(159, 26);
+            this.priceTB.TabIndex = 6;
+            // 
+            // quantityTB
+            // 
+            this.quantityTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.quantityTB.Location = new System.Drawing.Point(279, 240);
+            this.quantityTB.Name = "quantityTB";
+            this.quantityTB.Size = new System.Drawing.Size(159, 26);
+            this.quantityTB.TabIndex = 7;
+            // 
+            // pictureTB
+            // 
+            this.pictureTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pictureTB.Location = new System.Drawing.Point(279, 280);
+            this.pictureTB.Name = "pictureTB";
+            this.pictureTB.Size = new System.Drawing.Size(159, 26);
+            this.pictureTB.TabIndex = 8;
+            // 
+            // categoryTB
+            // 
+            this.categoryTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categoryTB.Location = new System.Drawing.Point(279, 360);
+            this.categoryTB.Name = "categoryTB";
+            this.categoryTB.Size = new System.Drawing.Size(159, 26);
+            this.categoryTB.TabIndex = 12;
+            // 
+            // nameTB
+            // 
+            this.nameTB.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameTB.Location = new System.Drawing.Point(279, 160);
+            this.nameTB.Name = "nameTB";
+            this.nameTB.Size = new System.Drawing.Size(159, 26);
+            this.nameTB.TabIndex = 5;
+            // 
             // AdminSales
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -497,20 +497,20 @@
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.Panel addItemPanel;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox pictureTB;
-        private System.Windows.Forms.TextBox quantityTB;
-        private System.Windows.Forms.TextBox priceTB;
-        private System.Windows.Forms.TextBox nameTB;
-        private System.Windows.Forms.ComboBox categoryComboBox;
-        private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Panel panel6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button addBtn;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox categoryTB;
+        private System.Windows.Forms.TextBox pictureTB;
+        private System.Windows.Forms.TextBox quantityTB;
+        private System.Windows.Forms.TextBox priceTB;
+        private System.Windows.Forms.TextBox nameTB;
+        private System.Windows.Forms.ComboBox categoryComboBox;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
     }
 }

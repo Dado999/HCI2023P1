@@ -32,6 +32,10 @@ namespace Damir_Filipovic_HCI2023
             cityLabel.Text = Program.currentUser.city.ToString();
             priceLabel.Text = "Total price: " + price.ToString() + "KM";
             this.price = price;
+            if (Program.currentUser.theme == "Dark")
+                splitContainer2.Panel2.BackColor = Color.Silver;
+            else if (Program.currentUser.theme == "Contrast")
+                splitContainer2.Panel2.BackColor = Color.Red;
         }
 
         private void adressLabel_Click(object sender, EventArgs e)

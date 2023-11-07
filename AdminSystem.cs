@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.StartPanel;
 
 namespace Damir_Filipovic_HCI2023
 {
@@ -21,6 +22,8 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
             ShowAllUsers();
+            adminComboBox.Items.Add("Sales");
+            adminComboBox.Items.Add("System");
         }
         private void ShowAllUsers()
         {   
@@ -50,6 +53,7 @@ namespace Damir_Filipovic_HCI2023
             {
                 while (reader.Read())
                 {
+                    if(reader.GetInt16("userActive")==1)
                     users.Add(new User(
                         reader.GetString("name"),
                         reader.GetString("surname"),
@@ -63,15 +67,54 @@ namespace Damir_Filipovic_HCI2023
                 }
             }
         }
-
         private void deleteUserBtn_Click(object sender, EventArgs e)
         {
             if (dgv.SelectedRows.Count > 0)
             {
                 DataGridViewRow selectedRow = dgv.SelectedRows[0];
                 int rowIndex = dgv.CurrentCell.RowIndex;
-                dgv.Rows.RemoveAt(rowIndex);
-                users.RemoveAt(rowIndex);
+                string userName = selectedRow.Cells[2].Value.ToString();
+                DialogResult dr = MessageBox.Show("Are you sure you want to delete the user " + userName, "?", MessageBoxButtons.YesNo);
+                if (dr == DialogResult.Yes)
+                {
+                    dgv.Rows.RemoveAt(rowIndex);
+                    users.RemoveAt(rowIndex == 0 ? 0 : rowIndex-1);
+                    RemoveUser(userName);   
+                }
+            }
+        }
+        private void RemoveUser(string userName) 
+        {
+            MySqlConnection connection = new MySqlConnection(connectionString);
+            connection.Open();
+            MySqlCommand cmd = connection.CreateCommand();
+            cmd.CommandText = @"update user set userActive=0 where username=@userName";
+            cmd.Parameters.AddWithValue("@username", userName);
+            cmd.ExecuteNonQuery();
+            MessageBox.Show("User " + userName + " deleted successfully","Successful deletion",MessageBoxButtons.OK);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (nameTB.Text.Length == 0 || surnameTB.Text.Length == 0 || userNameTB.Text.Length == 0 || passwordTB.Text.Length == 0
+                || phoneTB.Text.Length == 0 || cityTB.Text.Length == 0 || adminComboBox.Text == "Role")
+                MessageBox.Show("Fill in all of the fields!", "Error", MessageBoxButtons.OK);
+            else
+            {
+                MySqlConnection connection = new MySqlConnection(connectionString);
+                connection.Open();
+                MySqlCommand cmd = connection.CreateCommand();
+                cmd.CommandText = @"insert into hci.admin(name, surname, username, password, phoneNumber, city, language, theme, adminSales)
+                                                    values(@parname,@parsurname,@parusername,@parpassword,@parphoneNumber,@parcity,'English','Light',@parrole)";
+                cmd.Parameters.AddWithValue("@parname",nameTB.Text);
+                cmd.Parameters.AddWithValue("@parsurname",surnameTB.Text);
+                cmd.Parameters.AddWithValue("@parusername",userNameTB.Text);
+                cmd.Parameters.AddWithValue("@parpassword",passwordTB.Text);
+                cmd.Parameters.AddWithValue("@parphoneNumber",phoneTB.Text);
+                cmd.Parameters.AddWithValue("@parcity",cityTB.Text);
+                cmd.Parameters.AddWithValue("@parrole",adminComboBox.Text == "Sales" ? 1 : 0);
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Admin " + userNameTB.Text + " deleted successfully", "Successful creation", MessageBoxButtons.OK);
             }
         }
     }
