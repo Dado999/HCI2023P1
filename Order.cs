@@ -6,6 +6,7 @@ using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -26,11 +27,15 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
             Program.UpdateTheme(this);
+            ChangeLanguage();
             nameLabel.Text = Program.currentUser.name.ToString();
             surnameLabel.Text = Program.currentUser.surname.ToString();
             numberLabel.Text = Program.currentUser.phoneNumber.ToString();
             cityLabel.Text = Program.currentUser.city.ToString();
-            priceLabel.Text = "Total price: " + price.ToString() + "KM";
+            if (Program.currentUser.language == "English")
+                priceLabel.Text = "Total price: " + price.ToString() + "KM";
+            else
+                priceLabel.Text = (Program.currentUser.language == "Serbian" ? "Ukupna cijena " : "Precio total ") + price.ToString() + "KM";
             this.price = price;
             if (Program.currentUser.theme == "Dark")
                 splitContainer2.Panel2.BackColor = Color.Silver;
@@ -163,6 +168,15 @@ namespace Damir_Filipovic_HCI2023
                     con.Close();
                 }
             }
+        }
+        private void ChangeLanguage()
+        {
+            if (Program.currentUser.language == "English")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
+            else if (Program.currentUser.language == "Serbian")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
+            else
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageESP", typeof(StartPage).Assembly));
         }
     }
 }

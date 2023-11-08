@@ -69,11 +69,12 @@
             // 
             // priceLabel
             // 
-            this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.priceLabel.AutoSize = true;
+            this.priceLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.priceLabel.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(97)))), ((int)(((byte)(170)))));
             this.priceLabel.Location = new System.Drawing.Point(3, 34);
             this.priceLabel.Name = "priceLabel";
-            this.priceLabel.Size = new System.Drawing.Size(266, 39);
+            this.priceLabel.Size = new System.Drawing.Size(0, 25);
             this.priceLabel.TabIndex = 6;
             this.priceLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -127,6 +128,7 @@
             // adressLabel
             // 
             this.adressLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.adressLabel.ForeColor = System.Drawing.SystemColors.InactiveCaption;
             this.adressLabel.Location = new System.Drawing.Point(3, 276);
             this.adressLabel.Name = "adressLabel";
             this.adressLabel.Size = new System.Drawing.Size(264, 26);
@@ -179,6 +181,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Order";
             this.splitContainer1.Panel2.ResumeLayout(false);
+            this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             this.splitContainer2.Panel1.ResumeLayout(false);

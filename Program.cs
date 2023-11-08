@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -88,6 +89,19 @@ namespace Damir_Filipovic_HCI2023
                         splitContainer.Panel2.BackColor = Color.Chartreuse;
                     }
                 }
+            }
+        }
+
+        public static void UpdateLanguage(Control control,ResourceManager rm)
+        {
+            foreach (Control c in control.Controls)
+            {
+                if (c is Label || c is Button)
+                    c.Text = rm.GetString(c.Name);
+                else if (c is PictureBox)
+                    continue;
+                else if (c.Controls.Count > 0)
+                    UpdateLanguage(c, rm);
             }
         }
     }

@@ -32,7 +32,7 @@
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.priceLabel = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.logoutBtn = new System.Windows.Forms.Button();
+            this.orderBtn = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -89,28 +89,28 @@
             // panel8
             // 
             this.panel8.BackColor = System.Drawing.Color.White;
-            this.panel8.Controls.Add(this.logoutBtn);
+            this.panel8.Controls.Add(this.orderBtn);
             this.panel8.Controls.Add(this.pictureBox1);
             this.panel8.Location = new System.Drawing.Point(33, 392);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(200, 57);
             this.panel8.TabIndex = 9;
             // 
-            // logoutBtn
+            // orderBtn
             // 
-            this.logoutBtn.BackColor = System.Drawing.Color.MediumTurquoise;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.logoutBtn.ForeColor = System.Drawing.Color.Black;
-            this.logoutBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources._90194b7f2ca68a3d80dc41a6e20ae1de_removebg_preview__1_;
-            this.logoutBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.logoutBtn.Location = new System.Drawing.Point(-14, -13);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Size = new System.Drawing.Size(234, 80);
-            this.logoutBtn.TabIndex = 22;
-            this.logoutBtn.Text = "    Order";
-            this.logoutBtn.UseVisualStyleBackColor = false;
-            this.logoutBtn.Click += new System.EventHandler(this.logoutBtn_Click);
+            this.orderBtn.BackColor = System.Drawing.Color.MediumTurquoise;
+            this.orderBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.orderBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.orderBtn.ForeColor = System.Drawing.Color.Black;
+            this.orderBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources._90194b7f2ca68a3d80dc41a6e20ae1de_removebg_preview__1_;
+            this.orderBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.orderBtn.Location = new System.Drawing.Point(-14, -13);
+            this.orderBtn.Name = "orderBtn";
+            this.orderBtn.Size = new System.Drawing.Size(234, 80);
+            this.orderBtn.TabIndex = 22;
+            this.orderBtn.Text = "    Order";
+            this.orderBtn.UseVisualStyleBackColor = false;
+            this.orderBtn.Click += new System.EventHandler(this.orderBtn_Click);
             // 
             // pictureBox1
             // 
@@ -146,7 +146,7 @@
         private System.Windows.Forms.SplitContainer splitContainer1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.Panel panel8;
-        private System.Windows.Forms.Button logoutBtn;
+        private System.Windows.Forms.Button orderBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label priceLabel;
     }

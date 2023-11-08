@@ -10,6 +10,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Drawing.Printing;
 using System.Linq;
+using System.Resources;
 using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
@@ -34,6 +35,10 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
             Program.UpdateTheme(this);
+            if (Program.currentUser.language == "English")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
+            else if (Program.currentUser.language == "Serbian")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
             populateFlowLayoutPanel(@"SELECT * FROM product");
         }
 
@@ -314,6 +319,39 @@ namespace Damir_Filipovic_HCI2023
             Program.UpdateTheme(this);
         }
 
+        //Language change
+        private void changeLanguage(string newLanguage) 
+        {
+            Program.currentUser.language = newLanguage;
+            MySqlConnection mySqlConnection = new MySqlConnection(connectionString);
+            mySqlConnection.Open();
+            MySqlCommand mySqlCommand = mySqlConnection.CreateCommand();
+            mySqlCommand.CommandText = @"UPDATE user SET language=@newLanguage WHERE username=@username";
+            mySqlCommand.Parameters.AddWithValue("@username", Program.currentUser.username);
+            mySqlCommand.Parameters.AddWithValue("@newLanguage", newLanguage);
+            try { mySqlCommand.ExecuteNonQuery(); }
+            catch (MySqlException ex) { MessageBox.Show(ex.Message); }
+        }
+        private void englishLanguage_Click(object sender, EventArgs e)
+        {
+            changeLanguage("English");
+            Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
+            calculatePriceOfCart();
+        }
+        private void serbianLanguage_Click(object sender, EventArgs e)
+        {
+            changeLanguage("Serbian");
+            Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
+            calculatePriceOfCart();
+        }
+        private void spanishLanguage_Click(object sender, EventArgs e)
+        {
+            changeLanguage("Spanish");
+            Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageESP", typeof(StartPage).Assembly));
+            calculatePriceOfCart();
+        }
+
+        //Sorting
         private void lowHighBtn_Click(object sender, EventArgs e)
         {
             emptyFlowLayoutPanel(false);
@@ -346,9 +384,10 @@ namespace Damir_Filipovic_HCI2023
             }
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        //Search bar
+        private void searchBar_TextChanged(object sender, EventArgs e)
         {
-            string searchKey = textBox1.Text.ToString();
+            string searchKey = searchBar.Text.ToString();
             List<Product> searchedProducts = new List<Product>();
             emptyFlowLayoutPanel(false);
             foreach(Product p in presentedProducts)
@@ -359,9 +398,9 @@ namespace Damir_Filipovic_HCI2023
             populateFlowLayoutPanelByList(searchedProducts);
         }
 
-        private void textBox1_Click(object sender, EventArgs e)
+        private void searchBar_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "";
+            searchBar.Text = "";
         }
     }
     }

@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,19 +19,27 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
             Program.UpdateTheme(this);
+            ChangeLanguage();
             foreach (Product product in Shop.clickedProducts)
                 CreateCartItem(product);
             calculatePriceOfCart();
         }
-
         //Loading in labels from the cart
         private void CreateCartItem(Product p)
         {
             Panel panel = CreatePanel();
             panel.Controls.Add(CreatePanelPicture(p.picture.BackgroundImage));
             panel.Controls.Add(CreatePanelButton());
-            panel.Controls.Add(CreatePanelLabel("Price: " + (p.price * p.clickLimit).ToString() + "KM", 103, 5));
-            panel.Controls.Add(CreatePanelLabel("Quantity: " + p.clickLimit.ToString(), 103, 40));
+            if (Program.currentUser.language == "English")
+            {
+                panel.Controls.Add(CreatePanelLabel("Price: " + (p.price * p.clickLimit).ToString() + "KM", 103, 5));
+                panel.Controls.Add(CreatePanelLabel("Quantity: " + p.clickLimit.ToString(), 103, 40));
+            }
+            else
+            {
+                panel.Controls.Add(CreatePanelLabel((Program.currentUser.language == "Serbian" ? "Cijena: " : "Precio ") + (p.price * p.clickLimit).ToString() + "KM", 103, 5));
+                panel.Controls.Add(CreatePanelLabel((Program.currentUser.language == "Serbian" ? "Kolicina: " : "Cantidad ") + p.clickLimit.ToString(), 103, 40));
+            }
             Label nameOfProduct = CreatePanelLabel(p.name, 0, 0);
             nameOfProduct.SendToBack();
             nameOfProduct.ForeColor = Color.White;
@@ -137,12 +146,21 @@ namespace Damir_Filipovic_HCI2023
             }
         }
 
-        private void logoutBtn_Click(object sender, EventArgs e)
+        private void orderBtn_Click(object sender, EventArgs e)
         {
             if(totalPrice==0)
                 MessageBox.Show("Cart empty!","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
             else
                 new Order(totalPrice).Show();
+        }
+        private void ChangeLanguage()
+        {
+            if (Program.currentUser.language == "English")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
+            else if (Program.currentUser.language == "Serbian")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
+            else
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageESP", typeof(StartPage).Assembly));
         }
     }
 }
