@@ -333,6 +333,26 @@ namespace Damir_Filipovic_HCI2023.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap otherlogo__1_ {
+            get {
+                object obj = ResourceManager.GetObject("otherlogo (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap otherlogo__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("otherlogo__1_-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap PCLogo {
             get {
                 object obj = ResourceManager.GetObject("PCLogo", resourceCulture);

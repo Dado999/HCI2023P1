@@ -178,6 +178,15 @@ namespace Damir_Filipovic_HCI2023.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to            Other.
+        /// </summary>
+        internal static string otherBtn {
+            get {
+                return ResourceManager.GetString("otherBtn", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to          Peripherals.
         /// </summary>
         internal static string peripheralsBtn {

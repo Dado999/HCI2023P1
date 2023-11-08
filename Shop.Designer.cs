@@ -32,44 +32,28 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.spanishLanguage = new System.Windows.Forms.PictureBox();
-            this.serbianLanguage = new System.Windows.Forms.PictureBox();
-            this.englishLanguage = new System.Windows.Forms.PictureBox();
-            this.contrastTheme = new System.Windows.Forms.PictureBox();
-            this.darkTheme = new System.Windows.Forms.PictureBox();
-            this.lightTheme = new System.Windows.Forms.PictureBox();
             this.componentsPanel = new System.Windows.Forms.Panel();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.componentPSBtn = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.componentMotherboardBtn = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.componentsRAMBtn = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.componentsCpuBtn = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.componentsGCBtn = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.componentsButton = new System.Windows.Forms.Button();
             this.peripheralsPanel = new System.Windows.Forms.Panel();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.peripheralsHeadphonesBtn = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.peripheralsSpeakersBtn = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.peripheralsKeyboardBtn = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.peripheralsMouseBtn = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.peripheralsBtn = new System.Windows.Forms.Button();
             this.storagePanel = new System.Windows.Forms.Panel();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.storageSSDBtn = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.storageHDDBtn = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.storageBtn = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.cartValueCurrentLabel = new System.Windows.Forms.Label();
+            this.panel8 = new System.Windows.Forms.Panel();
             this.sortPanel = new System.Windows.Forms.Panel();
             this.highLowBtn = new System.Windows.Forms.Button();
             this.lowHighBtn = new System.Windows.Forms.Button();
@@ -77,32 +61,45 @@
             this.button1 = new System.Windows.Forms.Button();
             this.searchBar = new System.Windows.Forms.TextBox();
             this.layoutPanel = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.gamingBtn = new System.Windows.Forms.Button();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.logoutBtn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.cartValueCurrentLabel = new System.Windows.Forms.Label();
-            this.cartBtn = new System.Windows.Forms.Button();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.systemsBtn = new System.Windows.Forms.Button();
             this.componentsTimer = new System.Windows.Forms.Timer(this.components);
             this.peripheralsTimer = new System.Windows.Forms.Timer(this.components);
             this.storageTimer = new System.Windows.Forms.Timer(this.components);
             this.sortingTimer = new System.Windows.Forms.Timer(this.components);
+            this.panel7 = new System.Windows.Forms.Panel();
+            this.spanishLanguage = new System.Windows.Forms.PictureBox();
+            this.serbianLanguage = new System.Windows.Forms.PictureBox();
+            this.englishLanguage = new System.Windows.Forms.PictureBox();
+            this.contrastTheme = new System.Windows.Forms.PictureBox();
+            this.darkTheme = new System.Windows.Forms.PictureBox();
+            this.lightTheme = new System.Windows.Forms.PictureBox();
+            this.componentPSBtn = new System.Windows.Forms.Button();
+            this.componentMotherboardBtn = new System.Windows.Forms.Button();
+            this.componentsRAMBtn = new System.Windows.Forms.Button();
+            this.componentsCpuBtn = new System.Windows.Forms.Button();
+            this.componentsGCBtn = new System.Windows.Forms.Button();
+            this.componentsButton = new System.Windows.Forms.Button();
+            this.peripheralsHeadphonesBtn = new System.Windows.Forms.Button();
+            this.peripheralsSpeakersBtn = new System.Windows.Forms.Button();
+            this.peripheralsKeyboardBtn = new System.Windows.Forms.Button();
+            this.peripheralsMouseBtn = new System.Windows.Forms.Button();
+            this.peripheralsBtn = new System.Windows.Forms.Button();
+            this.storageSSDBtn = new System.Windows.Forms.Button();
+            this.storageHDDBtn = new System.Windows.Forms.Button();
+            this.storageBtn = new System.Windows.Forms.Button();
+            this.gamingBtn = new System.Windows.Forms.Button();
+            this.systemsBtn = new System.Windows.Forms.Button();
+            this.cartBtn = new System.Windows.Forms.Button();
+            this.logoutBtn = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.otherBtn = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).BeginInit();
             this.componentsPanel.SuspendLayout();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
@@ -120,13 +117,21 @@
             this.panel20.SuspendLayout();
             this.panel19.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.sortPanel.SuspendLayout();
             this.panel6.SuspendLayout();
-            this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
             this.panel5.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.sortPanel.SuspendLayout();
+            this.panel7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -162,6 +167,7 @@
             this.flowLayoutPanel1.Controls.Add(this.storagePanel);
             this.flowLayoutPanel1.Controls.Add(this.panel6);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
+            this.flowLayoutPanel1.Controls.Add(this.panel7);
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Controls.Add(this.panel8);
             this.flowLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -182,72 +188,6 @@
             this.panel14.Name = "panel14";
             this.panel14.Size = new System.Drawing.Size(200, 54);
             this.panel14.TabIndex = 9;
-            // 
-            // spanishLanguage
-            // 
-            this.spanishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.spanishFlag;
-            this.spanishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.spanishLanguage.Location = new System.Drawing.Point(144, 30);
-            this.spanishLanguage.Name = "spanishLanguage";
-            this.spanishLanguage.Size = new System.Drawing.Size(53, 19);
-            this.spanishLanguage.TabIndex = 5;
-            this.spanishLanguage.TabStop = false;
-            this.spanishLanguage.Click += new System.EventHandler(this.spanishLanguage_Click);
-            // 
-            // serbianLanguage
-            // 
-            this.serbianLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.rsFlag;
-            this.serbianLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.serbianLanguage.Location = new System.Drawing.Point(71, 30);
-            this.serbianLanguage.Name = "serbianLanguage";
-            this.serbianLanguage.Size = new System.Drawing.Size(53, 19);
-            this.serbianLanguage.TabIndex = 4;
-            this.serbianLanguage.TabStop = false;
-            this.serbianLanguage.Click += new System.EventHandler(this.serbianLanguage_Click);
-            // 
-            // englishLanguage
-            // 
-            this.englishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.gbFlag;
-            this.englishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.englishLanguage.Location = new System.Drawing.Point(3, 28);
-            this.englishLanguage.Name = "englishLanguage";
-            this.englishLanguage.Size = new System.Drawing.Size(53, 21);
-            this.englishLanguage.TabIndex = 3;
-            this.englishLanguage.TabStop = false;
-            this.englishLanguage.Click += new System.EventHandler(this.englishLanguage_Click);
-            // 
-            // contrastTheme
-            // 
-            this.contrastTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.ContrastTheme;
-            this.contrastTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.contrastTheme.Location = new System.Drawing.Point(144, 3);
-            this.contrastTheme.Name = "contrastTheme";
-            this.contrastTheme.Size = new System.Drawing.Size(53, 19);
-            this.contrastTheme.TabIndex = 2;
-            this.contrastTheme.TabStop = false;
-            this.contrastTheme.Click += new System.EventHandler(this.contrastTheme_Click);
-            // 
-            // darkTheme
-            // 
-            this.darkTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.DarkTheme;
-            this.darkTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.darkTheme.Location = new System.Drawing.Point(71, 3);
-            this.darkTheme.Name = "darkTheme";
-            this.darkTheme.Size = new System.Drawing.Size(53, 19);
-            this.darkTheme.TabIndex = 1;
-            this.darkTheme.TabStop = false;
-            this.darkTheme.Click += new System.EventHandler(this.darkTheme_Click);
-            // 
-            // lightTheme
-            // 
-            this.lightTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.LightTheme;
-            this.lightTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.lightTheme.Location = new System.Drawing.Point(3, 3);
-            this.lightTheme.Name = "lightTheme";
-            this.lightTheme.Size = new System.Drawing.Size(53, 19);
-            this.lightTheme.TabIndex = 0;
-            this.lightTheme.TabStop = false;
-            this.lightTheme.Click += new System.EventHandler(this.lightTheme_Click_1);
             // 
             // componentsPanel
             // 
@@ -273,24 +213,6 @@
             this.panel13.Size = new System.Drawing.Size(200, 40);
             this.panel13.TabIndex = 7;
             // 
-            // componentPSBtn
-            // 
-            this.componentPSBtn.BackColor = System.Drawing.Color.Transparent;
-            this.componentPSBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentPSBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentPSBtn.ForeColor = System.Drawing.Color.White;
-            this.componentPSBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.componentPSBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentPSBtn.Location = new System.Drawing.Point(-3, -23);
-            this.componentPSBtn.Name = "componentPSBtn";
-            this.componentPSBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentPSBtn.Size = new System.Drawing.Size(223, 80);
-            this.componentPSBtn.TabIndex = 22;
-            this.componentPSBtn.Text = "         Power Supply";
-            this.componentPSBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentPSBtn.UseVisualStyleBackColor = false;
-            this.componentPSBtn.Click += new System.EventHandler(this.componentPSBtn_Click);
-            // 
             // panel12
             // 
             this.panel12.Controls.Add(this.componentMotherboardBtn);
@@ -298,24 +220,6 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(200, 40);
             this.panel12.TabIndex = 6;
-            // 
-            // componentMotherboardBtn
-            // 
-            this.componentMotherboardBtn.BackColor = System.Drawing.Color.Transparent;
-            this.componentMotherboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentMotherboardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentMotherboardBtn.ForeColor = System.Drawing.Color.White;
-            this.componentMotherboardBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.componentMotherboardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentMotherboardBtn.Location = new System.Drawing.Point(-3, -23);
-            this.componentMotherboardBtn.Name = "componentMotherboardBtn";
-            this.componentMotherboardBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentMotherboardBtn.Size = new System.Drawing.Size(223, 80);
-            this.componentMotherboardBtn.TabIndex = 22;
-            this.componentMotherboardBtn.Text = "         Motherboards";
-            this.componentMotherboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentMotherboardBtn.UseVisualStyleBackColor = false;
-            this.componentMotherboardBtn.Click += new System.EventHandler(this.componentMotherboardBtn_Click);
             // 
             // panel11
             // 
@@ -325,24 +229,6 @@
             this.panel11.Size = new System.Drawing.Size(200, 40);
             this.panel11.TabIndex = 5;
             // 
-            // componentsRAMBtn
-            // 
-            this.componentsRAMBtn.BackColor = System.Drawing.Color.Transparent;
-            this.componentsRAMBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentsRAMBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentsRAMBtn.ForeColor = System.Drawing.Color.White;
-            this.componentsRAMBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.componentsRAMBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsRAMBtn.Location = new System.Drawing.Point(-3, -23);
-            this.componentsRAMBtn.Name = "componentsRAMBtn";
-            this.componentsRAMBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentsRAMBtn.Size = new System.Drawing.Size(223, 80);
-            this.componentsRAMBtn.TabIndex = 22;
-            this.componentsRAMBtn.Text = "         RAM";
-            this.componentsRAMBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsRAMBtn.UseVisualStyleBackColor = false;
-            this.componentsRAMBtn.Click += new System.EventHandler(this.componentsRAMBtn_Click);
-            // 
             // panel10
             // 
             this.panel10.Controls.Add(this.componentsCpuBtn);
@@ -350,24 +236,6 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(200, 40);
             this.panel10.TabIndex = 4;
-            // 
-            // componentsCpuBtn
-            // 
-            this.componentsCpuBtn.BackColor = System.Drawing.Color.Transparent;
-            this.componentsCpuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentsCpuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentsCpuBtn.ForeColor = System.Drawing.Color.White;
-            this.componentsCpuBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.componentsCpuBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsCpuBtn.Location = new System.Drawing.Point(-3, -23);
-            this.componentsCpuBtn.Name = "componentsCpuBtn";
-            this.componentsCpuBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentsCpuBtn.Size = new System.Drawing.Size(223, 80);
-            this.componentsCpuBtn.TabIndex = 22;
-            this.componentsCpuBtn.Text = "         CPU";
-            this.componentsCpuBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsCpuBtn.UseVisualStyleBackColor = false;
-            this.componentsCpuBtn.Click += new System.EventHandler(this.componentsCpuBtn_Click);
             // 
             // panel2
             // 
@@ -377,24 +245,6 @@
             this.panel2.Size = new System.Drawing.Size(200, 40);
             this.panel2.TabIndex = 3;
             // 
-            // componentsGCBtn
-            // 
-            this.componentsGCBtn.BackColor = System.Drawing.Color.Transparent;
-            this.componentsGCBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentsGCBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentsGCBtn.ForeColor = System.Drawing.Color.White;
-            this.componentsGCBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.componentsGCBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsGCBtn.Location = new System.Drawing.Point(-3, -23);
-            this.componentsGCBtn.Name = "componentsGCBtn";
-            this.componentsGCBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentsGCBtn.Size = new System.Drawing.Size(223, 80);
-            this.componentsGCBtn.TabIndex = 22;
-            this.componentsGCBtn.Text = "         Graphics Cards";
-            this.componentsGCBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsGCBtn.UseVisualStyleBackColor = false;
-            this.componentsGCBtn.Click += new System.EventHandler(this.componentsGCBtn_Click);
-            // 
             // panel9
             // 
             this.panel9.Controls.Add(this.componentsButton);
@@ -402,24 +252,6 @@
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(200, 57);
             this.panel9.TabIndex = 2;
-            // 
-            // componentsButton
-            // 
-            this.componentsButton.BackColor = System.Drawing.Color.Transparent;
-            this.componentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.componentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.componentsButton.ForeColor = System.Drawing.Color.White;
-            this.componentsButton.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.graphics58x58_58x58__1_;
-            this.componentsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsButton.Location = new System.Drawing.Point(-14, -13);
-            this.componentsButton.Name = "componentsButton";
-            this.componentsButton.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.componentsButton.Size = new System.Drawing.Size(234, 80);
-            this.componentsButton.TabIndex = 22;
-            this.componentsButton.Text = "         Components";
-            this.componentsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.componentsButton.UseVisualStyleBackColor = false;
-            this.componentsButton.Click += new System.EventHandler(this.componentsButton_Click);
             // 
             // peripheralsPanel
             // 
@@ -444,24 +276,6 @@
             this.panel18.Size = new System.Drawing.Size(200, 57);
             this.panel18.TabIndex = 6;
             // 
-            // peripheralsHeadphonesBtn
-            // 
-            this.peripheralsHeadphonesBtn.BackColor = System.Drawing.Color.Transparent;
-            this.peripheralsHeadphonesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsHeadphonesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peripheralsHeadphonesBtn.ForeColor = System.Drawing.Color.White;
-            this.peripheralsHeadphonesBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
-            this.peripheralsHeadphonesBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsHeadphonesBtn.Location = new System.Drawing.Point(-3, -13);
-            this.peripheralsHeadphonesBtn.Name = "peripheralsHeadphonesBtn";
-            this.peripheralsHeadphonesBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.peripheralsHeadphonesBtn.Size = new System.Drawing.Size(223, 80);
-            this.peripheralsHeadphonesBtn.TabIndex = 22;
-            this.peripheralsHeadphonesBtn.Text = "         Headphones";
-            this.peripheralsHeadphonesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsHeadphonesBtn.UseVisualStyleBackColor = false;
-            this.peripheralsHeadphonesBtn.Click += new System.EventHandler(this.peripheralsHeadphonesBtn_Click);
-            // 
             // panel17
             // 
             this.panel17.BackColor = System.Drawing.Color.Transparent;
@@ -470,24 +284,6 @@
             this.panel17.Name = "panel17";
             this.panel17.Size = new System.Drawing.Size(200, 57);
             this.panel17.TabIndex = 5;
-            // 
-            // peripheralsSpeakersBtn
-            // 
-            this.peripheralsSpeakersBtn.BackColor = System.Drawing.Color.Transparent;
-            this.peripheralsSpeakersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsSpeakersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peripheralsSpeakersBtn.ForeColor = System.Drawing.Color.White;
-            this.peripheralsSpeakersBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
-            this.peripheralsSpeakersBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsSpeakersBtn.Location = new System.Drawing.Point(-3, -13);
-            this.peripheralsSpeakersBtn.Name = "peripheralsSpeakersBtn";
-            this.peripheralsSpeakersBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.peripheralsSpeakersBtn.Size = new System.Drawing.Size(223, 80);
-            this.peripheralsSpeakersBtn.TabIndex = 22;
-            this.peripheralsSpeakersBtn.Text = "         Speakers";
-            this.peripheralsSpeakersBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsSpeakersBtn.UseVisualStyleBackColor = false;
-            this.peripheralsSpeakersBtn.Click += new System.EventHandler(this.peripheralsSpeakersBtn_Click);
             // 
             // panel16
             // 
@@ -498,24 +294,6 @@
             this.panel16.Size = new System.Drawing.Size(200, 57);
             this.panel16.TabIndex = 4;
             // 
-            // peripheralsKeyboardBtn
-            // 
-            this.peripheralsKeyboardBtn.BackColor = System.Drawing.Color.Transparent;
-            this.peripheralsKeyboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsKeyboardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peripheralsKeyboardBtn.ForeColor = System.Drawing.Color.White;
-            this.peripheralsKeyboardBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
-            this.peripheralsKeyboardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsKeyboardBtn.Location = new System.Drawing.Point(-3, -13);
-            this.peripheralsKeyboardBtn.Name = "peripheralsKeyboardBtn";
-            this.peripheralsKeyboardBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.peripheralsKeyboardBtn.Size = new System.Drawing.Size(223, 80);
-            this.peripheralsKeyboardBtn.TabIndex = 22;
-            this.peripheralsKeyboardBtn.Text = "         Keyboard";
-            this.peripheralsKeyboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsKeyboardBtn.UseVisualStyleBackColor = false;
-            this.peripheralsKeyboardBtn.Click += new System.EventHandler(this.peripheralsKeyboardBtn_Click);
-            // 
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.Transparent;
@@ -525,24 +303,6 @@
             this.panel15.Size = new System.Drawing.Size(200, 57);
             this.panel15.TabIndex = 3;
             // 
-            // peripheralsMouseBtn
-            // 
-            this.peripheralsMouseBtn.BackColor = System.Drawing.Color.Transparent;
-            this.peripheralsMouseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsMouseBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peripheralsMouseBtn.ForeColor = System.Drawing.Color.White;
-            this.peripheralsMouseBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
-            this.peripheralsMouseBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsMouseBtn.Location = new System.Drawing.Point(-3, -13);
-            this.peripheralsMouseBtn.Name = "peripheralsMouseBtn";
-            this.peripheralsMouseBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.peripheralsMouseBtn.Size = new System.Drawing.Size(223, 80);
-            this.peripheralsMouseBtn.TabIndex = 22;
-            this.peripheralsMouseBtn.Text = "         Mouse";
-            this.peripheralsMouseBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsMouseBtn.UseVisualStyleBackColor = false;
-            this.peripheralsMouseBtn.Click += new System.EventHandler(this.peripheralsMouseBtn_Click);
-            // 
             // panel3
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
@@ -551,24 +311,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(200, 57);
             this.panel3.TabIndex = 2;
-            // 
-            // peripheralsBtn
-            // 
-            this.peripheralsBtn.BackColor = System.Drawing.Color.Transparent;
-            this.peripheralsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.peripheralsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.peripheralsBtn.ForeColor = System.Drawing.Color.White;
-            this.peripheralsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.printer_icon_988__2_;
-            this.peripheralsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsBtn.Location = new System.Drawing.Point(-14, -13);
-            this.peripheralsBtn.Name = "peripheralsBtn";
-            this.peripheralsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.peripheralsBtn.Size = new System.Drawing.Size(234, 70);
-            this.peripheralsBtn.TabIndex = 22;
-            this.peripheralsBtn.Text = "         Peripherals";
-            this.peripheralsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.peripheralsBtn.UseVisualStyleBackColor = false;
-            this.peripheralsBtn.Click += new System.EventHandler(this.peripheralsBtn_Click);
             // 
             // storagePanel
             // 
@@ -590,24 +332,6 @@
             this.panel20.Size = new System.Drawing.Size(200, 41);
             this.panel20.TabIndex = 5;
             // 
-            // storageSSDBtn
-            // 
-            this.storageSSDBtn.BackColor = System.Drawing.Color.Transparent;
-            this.storageSSDBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.storageSSDBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.storageSSDBtn.ForeColor = System.Drawing.Color.White;
-            this.storageSSDBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.storageSSDBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageSSDBtn.Location = new System.Drawing.Point(-3, -18);
-            this.storageSSDBtn.Name = "storageSSDBtn";
-            this.storageSSDBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.storageSSDBtn.Size = new System.Drawing.Size(223, 80);
-            this.storageSSDBtn.TabIndex = 22;
-            this.storageSSDBtn.Text = "         SSD";
-            this.storageSSDBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageSSDBtn.UseVisualStyleBackColor = false;
-            this.storageSSDBtn.Click += new System.EventHandler(this.storageSSDBtn_Click);
-            // 
             // panel19
             // 
             this.panel19.Controls.Add(this.storageHDDBtn);
@@ -615,24 +339,6 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(200, 39);
             this.panel19.TabIndex = 4;
-            // 
-            // storageHDDBtn
-            // 
-            this.storageHDDBtn.BackColor = System.Drawing.Color.Transparent;
-            this.storageHDDBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.storageHDDBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.storageHDDBtn.ForeColor = System.Drawing.Color.White;
-            this.storageHDDBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
-            this.storageHDDBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageHDDBtn.Location = new System.Drawing.Point(-3, -18);
-            this.storageHDDBtn.Name = "storageHDDBtn";
-            this.storageHDDBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.storageHDDBtn.Size = new System.Drawing.Size(223, 80);
-            this.storageHDDBtn.TabIndex = 22;
-            this.storageHDDBtn.Text = "         HDD";
-            this.storageHDDBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageHDDBtn.UseVisualStyleBackColor = false;
-            this.storageHDDBtn.Click += new System.EventHandler(this.storageHDDBtn_Click);
             // 
             // panel4
             // 
@@ -642,34 +348,50 @@
             this.panel4.Size = new System.Drawing.Size(200, 57);
             this.panel4.TabIndex = 3;
             // 
-            // storageBtn
+            // panel6
             // 
-            this.storageBtn.BackColor = System.Drawing.Color.Transparent;
-            this.storageBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.storageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.storageBtn.ForeColor = System.Drawing.Color.White;
-            this.storageBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.storage_icon_6658__1_;
-            this.storageBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageBtn.Location = new System.Drawing.Point(-14, -13);
-            this.storageBtn.Name = "storageBtn";
-            this.storageBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.storageBtn.Size = new System.Drawing.Size(234, 80);
-            this.storageBtn.TabIndex = 22;
-            this.storageBtn.Text = "         Storage";
-            this.storageBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.storageBtn.UseVisualStyleBackColor = false;
-            this.storageBtn.Click += new System.EventHandler(this.storageBtn_Click);
+            this.panel6.Controls.Add(this.gamingBtn);
+            this.panel6.Location = new System.Drawing.Point(3, 242);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(200, 57);
+            this.panel6.TabIndex = 5;
             // 
-            // pictureBox2
+            // panel5
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Orange;
-            this.pictureBox2.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.download_removebg_preview;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox2.Location = new System.Drawing.Point(800, 28);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(23, 18);
-            this.pictureBox2.TabIndex = 3;
-            this.pictureBox2.TabStop = false;
+            this.panel5.Controls.Add(this.systemsBtn);
+            this.panel5.Location = new System.Drawing.Point(3, 305);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(200, 57);
+            this.panel5.TabIndex = 4;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.cartValueCurrentLabel);
+            this.panel1.Controls.Add(this.cartBtn);
+            this.panel1.Location = new System.Drawing.Point(3, 431);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 57);
+            this.panel1.TabIndex = 6;
+            // 
+            // cartValueCurrentLabel
+            // 
+            this.cartValueCurrentLabel.AutoSize = true;
+            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
+            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
+            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
+            this.cartValueCurrentLabel.Size = new System.Drawing.Size(18, 20);
+            this.cartValueCurrentLabel.TabIndex = 23;
+            this.cartValueCurrentLabel.Text = "0";
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.logoutBtn);
+            this.panel8.Controls.Add(this.pictureBox1);
+            this.panel8.Location = new System.Drawing.Point(3, 494);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(200, 57);
+            this.panel8.TabIndex = 8;
             // 
             // sortPanel
             // 
@@ -757,13 +479,352 @@
             this.layoutPanel.Size = new System.Drawing.Size(888, 498);
             this.layoutPanel.TabIndex = 0;
             // 
-            // panel6
+            // componentsTimer
             // 
-            this.panel6.Controls.Add(this.gamingBtn);
-            this.panel6.Location = new System.Drawing.Point(3, 242);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(200, 57);
-            this.panel6.TabIndex = 5;
+            this.componentsTimer.Interval = 10;
+            this.componentsTimer.Tick += new System.EventHandler(this.componentsTimer_Tick);
+            // 
+            // peripheralsTimer
+            // 
+            this.peripheralsTimer.Interval = 10;
+            this.peripheralsTimer.Tick += new System.EventHandler(this.peripheralsTimer_Tick);
+            // 
+            // storageTimer
+            // 
+            this.storageTimer.Interval = 10;
+            this.storageTimer.Tick += new System.EventHandler(this.storageTimer_Tick);
+            // 
+            // sortingTimer
+            // 
+            this.sortingTimer.Interval = 10;
+            this.sortingTimer.Tick += new System.EventHandler(this.sortingTimer_Tick);
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.otherBtn);
+            this.panel7.Controls.Add(this.pictureBox3);
+            this.panel7.Location = new System.Drawing.Point(3, 368);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(200, 57);
+            this.panel7.TabIndex = 9;
+            // 
+            // spanishLanguage
+            // 
+            this.spanishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.spanishFlag;
+            this.spanishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.spanishLanguage.Location = new System.Drawing.Point(144, 30);
+            this.spanishLanguage.Name = "spanishLanguage";
+            this.spanishLanguage.Size = new System.Drawing.Size(53, 19);
+            this.spanishLanguage.TabIndex = 5;
+            this.spanishLanguage.TabStop = false;
+            this.spanishLanguage.Click += new System.EventHandler(this.spanishLanguage_Click);
+            // 
+            // serbianLanguage
+            // 
+            this.serbianLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.rsFlag;
+            this.serbianLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.serbianLanguage.Location = new System.Drawing.Point(71, 30);
+            this.serbianLanguage.Name = "serbianLanguage";
+            this.serbianLanguage.Size = new System.Drawing.Size(53, 19);
+            this.serbianLanguage.TabIndex = 4;
+            this.serbianLanguage.TabStop = false;
+            this.serbianLanguage.Click += new System.EventHandler(this.serbianLanguage_Click);
+            // 
+            // englishLanguage
+            // 
+            this.englishLanguage.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.gbFlag;
+            this.englishLanguage.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.englishLanguage.Location = new System.Drawing.Point(3, 28);
+            this.englishLanguage.Name = "englishLanguage";
+            this.englishLanguage.Size = new System.Drawing.Size(53, 21);
+            this.englishLanguage.TabIndex = 3;
+            this.englishLanguage.TabStop = false;
+            this.englishLanguage.Click += new System.EventHandler(this.englishLanguage_Click);
+            // 
+            // contrastTheme
+            // 
+            this.contrastTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.ContrastTheme;
+            this.contrastTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.contrastTheme.Location = new System.Drawing.Point(144, 3);
+            this.contrastTheme.Name = "contrastTheme";
+            this.contrastTheme.Size = new System.Drawing.Size(53, 19);
+            this.contrastTheme.TabIndex = 2;
+            this.contrastTheme.TabStop = false;
+            this.contrastTheme.Click += new System.EventHandler(this.contrastTheme_Click);
+            // 
+            // darkTheme
+            // 
+            this.darkTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.DarkTheme;
+            this.darkTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.darkTheme.Location = new System.Drawing.Point(71, 3);
+            this.darkTheme.Name = "darkTheme";
+            this.darkTheme.Size = new System.Drawing.Size(53, 19);
+            this.darkTheme.TabIndex = 1;
+            this.darkTheme.TabStop = false;
+            this.darkTheme.Click += new System.EventHandler(this.darkTheme_Click);
+            // 
+            // lightTheme
+            // 
+            this.lightTheme.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.LightTheme;
+            this.lightTheme.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lightTheme.Location = new System.Drawing.Point(3, 3);
+            this.lightTheme.Name = "lightTheme";
+            this.lightTheme.Size = new System.Drawing.Size(53, 19);
+            this.lightTheme.TabIndex = 0;
+            this.lightTheme.TabStop = false;
+            this.lightTheme.Click += new System.EventHandler(this.lightTheme_Click_1);
+            // 
+            // componentPSBtn
+            // 
+            this.componentPSBtn.BackColor = System.Drawing.Color.Transparent;
+            this.componentPSBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentPSBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentPSBtn.ForeColor = System.Drawing.Color.White;
+            this.componentPSBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.componentPSBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentPSBtn.Location = new System.Drawing.Point(-3, -23);
+            this.componentPSBtn.Name = "componentPSBtn";
+            this.componentPSBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentPSBtn.Size = new System.Drawing.Size(223, 80);
+            this.componentPSBtn.TabIndex = 22;
+            this.componentPSBtn.Text = "         Power Supply";
+            this.componentPSBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentPSBtn.UseVisualStyleBackColor = false;
+            this.componentPSBtn.Click += new System.EventHandler(this.componentPSBtn_Click);
+            // 
+            // componentMotherboardBtn
+            // 
+            this.componentMotherboardBtn.BackColor = System.Drawing.Color.Transparent;
+            this.componentMotherboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentMotherboardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentMotherboardBtn.ForeColor = System.Drawing.Color.White;
+            this.componentMotherboardBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.componentMotherboardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentMotherboardBtn.Location = new System.Drawing.Point(-3, -23);
+            this.componentMotherboardBtn.Name = "componentMotherboardBtn";
+            this.componentMotherboardBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentMotherboardBtn.Size = new System.Drawing.Size(223, 80);
+            this.componentMotherboardBtn.TabIndex = 22;
+            this.componentMotherboardBtn.Text = "         Motherboards";
+            this.componentMotherboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentMotherboardBtn.UseVisualStyleBackColor = false;
+            this.componentMotherboardBtn.Click += new System.EventHandler(this.componentMotherboardBtn_Click);
+            // 
+            // componentsRAMBtn
+            // 
+            this.componentsRAMBtn.BackColor = System.Drawing.Color.Transparent;
+            this.componentsRAMBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentsRAMBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentsRAMBtn.ForeColor = System.Drawing.Color.White;
+            this.componentsRAMBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.componentsRAMBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsRAMBtn.Location = new System.Drawing.Point(-3, -23);
+            this.componentsRAMBtn.Name = "componentsRAMBtn";
+            this.componentsRAMBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentsRAMBtn.Size = new System.Drawing.Size(223, 80);
+            this.componentsRAMBtn.TabIndex = 22;
+            this.componentsRAMBtn.Text = "         RAM";
+            this.componentsRAMBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsRAMBtn.UseVisualStyleBackColor = false;
+            this.componentsRAMBtn.Click += new System.EventHandler(this.componentsRAMBtn_Click);
+            // 
+            // componentsCpuBtn
+            // 
+            this.componentsCpuBtn.BackColor = System.Drawing.Color.Transparent;
+            this.componentsCpuBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentsCpuBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentsCpuBtn.ForeColor = System.Drawing.Color.White;
+            this.componentsCpuBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.componentsCpuBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsCpuBtn.Location = new System.Drawing.Point(-3, -23);
+            this.componentsCpuBtn.Name = "componentsCpuBtn";
+            this.componentsCpuBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentsCpuBtn.Size = new System.Drawing.Size(223, 80);
+            this.componentsCpuBtn.TabIndex = 22;
+            this.componentsCpuBtn.Text = "         CPU";
+            this.componentsCpuBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsCpuBtn.UseVisualStyleBackColor = false;
+            this.componentsCpuBtn.Click += new System.EventHandler(this.componentsCpuBtn_Click);
+            // 
+            // componentsGCBtn
+            // 
+            this.componentsGCBtn.BackColor = System.Drawing.Color.Transparent;
+            this.componentsGCBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentsGCBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentsGCBtn.ForeColor = System.Drawing.Color.White;
+            this.componentsGCBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.componentsGCBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsGCBtn.Location = new System.Drawing.Point(-3, -23);
+            this.componentsGCBtn.Name = "componentsGCBtn";
+            this.componentsGCBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentsGCBtn.Size = new System.Drawing.Size(223, 80);
+            this.componentsGCBtn.TabIndex = 22;
+            this.componentsGCBtn.Text = "         Graphics Cards";
+            this.componentsGCBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsGCBtn.UseVisualStyleBackColor = false;
+            this.componentsGCBtn.Click += new System.EventHandler(this.componentsGCBtn_Click);
+            // 
+            // componentsButton
+            // 
+            this.componentsButton.BackColor = System.Drawing.Color.Transparent;
+            this.componentsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.componentsButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.componentsButton.ForeColor = System.Drawing.Color.White;
+            this.componentsButton.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.graphics58x58_58x58__1_;
+            this.componentsButton.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsButton.Location = new System.Drawing.Point(-14, -13);
+            this.componentsButton.Name = "componentsButton";
+            this.componentsButton.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.componentsButton.Size = new System.Drawing.Size(234, 80);
+            this.componentsButton.TabIndex = 22;
+            this.componentsButton.Text = "         Components";
+            this.componentsButton.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.componentsButton.UseVisualStyleBackColor = false;
+            this.componentsButton.Click += new System.EventHandler(this.componentsButton_Click);
+            // 
+            // peripheralsHeadphonesBtn
+            // 
+            this.peripheralsHeadphonesBtn.BackColor = System.Drawing.Color.Transparent;
+            this.peripheralsHeadphonesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.peripheralsHeadphonesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peripheralsHeadphonesBtn.ForeColor = System.Drawing.Color.White;
+            this.peripheralsHeadphonesBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
+            this.peripheralsHeadphonesBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsHeadphonesBtn.Location = new System.Drawing.Point(-3, -13);
+            this.peripheralsHeadphonesBtn.Name = "peripheralsHeadphonesBtn";
+            this.peripheralsHeadphonesBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.peripheralsHeadphonesBtn.Size = new System.Drawing.Size(223, 80);
+            this.peripheralsHeadphonesBtn.TabIndex = 22;
+            this.peripheralsHeadphonesBtn.Text = "         Headphones";
+            this.peripheralsHeadphonesBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsHeadphonesBtn.UseVisualStyleBackColor = false;
+            this.peripheralsHeadphonesBtn.Click += new System.EventHandler(this.peripheralsHeadphonesBtn_Click);
+            // 
+            // peripheralsSpeakersBtn
+            // 
+            this.peripheralsSpeakersBtn.BackColor = System.Drawing.Color.Transparent;
+            this.peripheralsSpeakersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.peripheralsSpeakersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peripheralsSpeakersBtn.ForeColor = System.Drawing.Color.White;
+            this.peripheralsSpeakersBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
+            this.peripheralsSpeakersBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsSpeakersBtn.Location = new System.Drawing.Point(-3, -13);
+            this.peripheralsSpeakersBtn.Name = "peripheralsSpeakersBtn";
+            this.peripheralsSpeakersBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.peripheralsSpeakersBtn.Size = new System.Drawing.Size(223, 80);
+            this.peripheralsSpeakersBtn.TabIndex = 22;
+            this.peripheralsSpeakersBtn.Text = "         Speakers";
+            this.peripheralsSpeakersBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsSpeakersBtn.UseVisualStyleBackColor = false;
+            this.peripheralsSpeakersBtn.Click += new System.EventHandler(this.peripheralsSpeakersBtn_Click);
+            // 
+            // peripheralsKeyboardBtn
+            // 
+            this.peripheralsKeyboardBtn.BackColor = System.Drawing.Color.Transparent;
+            this.peripheralsKeyboardBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.peripheralsKeyboardBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peripheralsKeyboardBtn.ForeColor = System.Drawing.Color.White;
+            this.peripheralsKeyboardBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
+            this.peripheralsKeyboardBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsKeyboardBtn.Location = new System.Drawing.Point(-3, -13);
+            this.peripheralsKeyboardBtn.Name = "peripheralsKeyboardBtn";
+            this.peripheralsKeyboardBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.peripheralsKeyboardBtn.Size = new System.Drawing.Size(223, 80);
+            this.peripheralsKeyboardBtn.TabIndex = 22;
+            this.peripheralsKeyboardBtn.Text = "         Keyboard";
+            this.peripheralsKeyboardBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsKeyboardBtn.UseVisualStyleBackColor = false;
+            this.peripheralsKeyboardBtn.Click += new System.EventHandler(this.peripheralsKeyboardBtn_Click);
+            // 
+            // peripheralsMouseBtn
+            // 
+            this.peripheralsMouseBtn.BackColor = System.Drawing.Color.Transparent;
+            this.peripheralsMouseBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.peripheralsMouseBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peripheralsMouseBtn.ForeColor = System.Drawing.Color.White;
+            this.peripheralsMouseBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_1;
+            this.peripheralsMouseBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsMouseBtn.Location = new System.Drawing.Point(-3, -13);
+            this.peripheralsMouseBtn.Name = "peripheralsMouseBtn";
+            this.peripheralsMouseBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.peripheralsMouseBtn.Size = new System.Drawing.Size(223, 80);
+            this.peripheralsMouseBtn.TabIndex = 22;
+            this.peripheralsMouseBtn.Text = "         Mouse";
+            this.peripheralsMouseBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsMouseBtn.UseVisualStyleBackColor = false;
+            this.peripheralsMouseBtn.Click += new System.EventHandler(this.peripheralsMouseBtn_Click);
+            // 
+            // peripheralsBtn
+            // 
+            this.peripheralsBtn.BackColor = System.Drawing.Color.Transparent;
+            this.peripheralsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.peripheralsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.peripheralsBtn.ForeColor = System.Drawing.Color.White;
+            this.peripheralsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.printer_icon_988__2_;
+            this.peripheralsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsBtn.Location = new System.Drawing.Point(-14, -13);
+            this.peripheralsBtn.Name = "peripheralsBtn";
+            this.peripheralsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.peripheralsBtn.Size = new System.Drawing.Size(234, 70);
+            this.peripheralsBtn.TabIndex = 22;
+            this.peripheralsBtn.Text = "         Peripherals";
+            this.peripheralsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.peripheralsBtn.UseVisualStyleBackColor = false;
+            this.peripheralsBtn.Click += new System.EventHandler(this.peripheralsBtn_Click);
+            // 
+            // storageSSDBtn
+            // 
+            this.storageSSDBtn.BackColor = System.Drawing.Color.Transparent;
+            this.storageSSDBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.storageSSDBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.storageSSDBtn.ForeColor = System.Drawing.Color.White;
+            this.storageSSDBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.storageSSDBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageSSDBtn.Location = new System.Drawing.Point(-3, -18);
+            this.storageSSDBtn.Name = "storageSSDBtn";
+            this.storageSSDBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.storageSSDBtn.Size = new System.Drawing.Size(223, 80);
+            this.storageSSDBtn.TabIndex = 22;
+            this.storageSSDBtn.Text = "         SSD";
+            this.storageSSDBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageSSDBtn.UseVisualStyleBackColor = false;
+            this.storageSSDBtn.Click += new System.EventHandler(this.storageSSDBtn_Click);
+            // 
+            // storageHDDBtn
+            // 
+            this.storageHDDBtn.BackColor = System.Drawing.Color.Transparent;
+            this.storageHDDBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.storageHDDBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.storageHDDBtn.ForeColor = System.Drawing.Color.White;
+            this.storageHDDBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.circle_icon_16059__1___1_;
+            this.storageHDDBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageHDDBtn.Location = new System.Drawing.Point(-3, -18);
+            this.storageHDDBtn.Name = "storageHDDBtn";
+            this.storageHDDBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.storageHDDBtn.Size = new System.Drawing.Size(223, 80);
+            this.storageHDDBtn.TabIndex = 22;
+            this.storageHDDBtn.Text = "         HDD";
+            this.storageHDDBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageHDDBtn.UseVisualStyleBackColor = false;
+            this.storageHDDBtn.Click += new System.EventHandler(this.storageHDDBtn_Click);
+            // 
+            // storageBtn
+            // 
+            this.storageBtn.BackColor = System.Drawing.Color.Transparent;
+            this.storageBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.storageBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.storageBtn.ForeColor = System.Drawing.Color.White;
+            this.storageBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.storage_icon_6658__1_;
+            this.storageBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageBtn.Location = new System.Drawing.Point(-14, -13);
+            this.storageBtn.Name = "storageBtn";
+            this.storageBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.storageBtn.Size = new System.Drawing.Size(234, 80);
+            this.storageBtn.TabIndex = 22;
+            this.storageBtn.Text = "         Storage";
+            this.storageBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.storageBtn.UseVisualStyleBackColor = false;
+            this.storageBtn.Click += new System.EventHandler(this.storageBtn_Click);
             // 
             // gamingBtn
             // 
@@ -782,14 +843,39 @@
             this.gamingBtn.UseVisualStyleBackColor = true;
             this.gamingBtn.Click += new System.EventHandler(this.gamingBtn_Click);
             // 
-            // panel8
+            // systemsBtn
             // 
-            this.panel8.Controls.Add(this.logoutBtn);
-            this.panel8.Controls.Add(this.pictureBox1);
-            this.panel8.Location = new System.Drawing.Point(3, 431);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(200, 57);
-            this.panel8.TabIndex = 8;
+            this.systemsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.systemsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.systemsBtn.ForeColor = System.Drawing.Color.White;
+            this.systemsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.laptop_png_6775__1___1_;
+            this.systemsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.systemsBtn.Location = new System.Drawing.Point(-14, -18);
+            this.systemsBtn.Name = "systemsBtn";
+            this.systemsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.systemsBtn.Size = new System.Drawing.Size(234, 80);
+            this.systemsBtn.TabIndex = 22;
+            this.systemsBtn.Text = "         Systems";
+            this.systemsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.systemsBtn.UseVisualStyleBackColor = true;
+            this.systemsBtn.Click += new System.EventHandler(this.systemsBtn_Click);
+            // 
+            // cartBtn
+            // 
+            this.cartBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cartBtn.ForeColor = System.Drawing.Color.White;
+            this.cartBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.cart_icon_28360__1___1_;
+            this.cartBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cartBtn.Location = new System.Drawing.Point(-14, -13);
+            this.cartBtn.Name = "cartBtn";
+            this.cartBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.cartBtn.Size = new System.Drawing.Size(234, 80);
+            this.cartBtn.TabIndex = 22;
+            this.cartBtn.Text = "         Cart";
+            this.cartBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.cartBtn.UseVisualStyleBackColor = true;
+            this.cartBtn.Click += new System.EventHandler(this.cartBtn_Click);
             // 
             // logoutBtn
             // 
@@ -816,87 +902,41 @@
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // panel1
+            // pictureBox2
             // 
-            this.panel1.Controls.Add(this.cartValueCurrentLabel);
-            this.panel1.Controls.Add(this.cartBtn);
-            this.panel1.Location = new System.Drawing.Point(3, 368);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(200, 57);
-            this.panel1.TabIndex = 6;
+            this.pictureBox2.BackColor = System.Drawing.Color.Orange;
+            this.pictureBox2.BackgroundImage = global::Damir_Filipovic_HCI2023.Properties.Resources.download_removebg_preview;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox2.Location = new System.Drawing.Point(800, 28);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(23, 18);
+            this.pictureBox2.TabIndex = 3;
+            this.pictureBox2.TabStop = false;
             // 
-            // cartValueCurrentLabel
+            // otherBtn
             // 
-            this.cartValueCurrentLabel.AutoSize = true;
-            this.cartValueCurrentLabel.BackColor = System.Drawing.Color.IndianRed;
-            this.cartValueCurrentLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartValueCurrentLabel.Location = new System.Drawing.Point(112, 18);
-            this.cartValueCurrentLabel.Name = "cartValueCurrentLabel";
-            this.cartValueCurrentLabel.Size = new System.Drawing.Size(18, 20);
-            this.cartValueCurrentLabel.TabIndex = 23;
-            this.cartValueCurrentLabel.Text = "0";
+            this.otherBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.otherBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.otherBtn.ForeColor = System.Drawing.Color.White;
+            this.otherBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.otherlogo__1__removebg_preview;
+            this.otherBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.otherBtn.Location = new System.Drawing.Point(-25, -13);
+            this.otherBtn.Name = "otherBtn";
+            this.otherBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
+            this.otherBtn.Size = new System.Drawing.Size(234, 80);
+            this.otherBtn.TabIndex = 22;
+            this.otherBtn.Text = "            Other";
+            this.otherBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.otherBtn.UseVisualStyleBackColor = true;
+            this.otherBtn.Click += new System.EventHandler(this.otherBtn_Click);
             // 
-            // cartBtn
+            // pictureBox3
             // 
-            this.cartBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cartBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cartBtn.ForeColor = System.Drawing.Color.White;
-            this.cartBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.cart_icon_28360__1___1_;
-            this.cartBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cartBtn.Location = new System.Drawing.Point(-14, -13);
-            this.cartBtn.Name = "cartBtn";
-            this.cartBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.cartBtn.Size = new System.Drawing.Size(234, 80);
-            this.cartBtn.TabIndex = 22;
-            this.cartBtn.Text = "         Cart";
-            this.cartBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.cartBtn.UseVisualStyleBackColor = true;
-            this.cartBtn.Click += new System.EventHandler(this.cartBtn_Click);
-            // 
-            // panel5
-            // 
-            this.panel5.Controls.Add(this.systemsBtn);
-            this.panel5.Location = new System.Drawing.Point(3, 305);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(200, 57);
-            this.panel5.TabIndex = 4;
-            // 
-            // systemsBtn
-            // 
-            this.systemsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.systemsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.systemsBtn.ForeColor = System.Drawing.Color.White;
-            this.systemsBtn.Image = global::Damir_Filipovic_HCI2023.Properties.Resources.laptop_png_6775__1___1_;
-            this.systemsBtn.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.systemsBtn.Location = new System.Drawing.Point(-14, -18);
-            this.systemsBtn.Name = "systemsBtn";
-            this.systemsBtn.Padding = new System.Windows.Forms.Padding(20, 0, 0, 0);
-            this.systemsBtn.Size = new System.Drawing.Size(234, 80);
-            this.systemsBtn.TabIndex = 22;
-            this.systemsBtn.Text = "         Systems";
-            this.systemsBtn.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.systemsBtn.UseVisualStyleBackColor = true;
-            this.systemsBtn.Click += new System.EventHandler(this.systemsBtn_Click);
-            // 
-            // componentsTimer
-            // 
-            this.componentsTimer.Interval = 10;
-            this.componentsTimer.Tick += new System.EventHandler(this.componentsTimer_Tick);
-            // 
-            // peripheralsTimer
-            // 
-            this.peripheralsTimer.Interval = 10;
-            this.peripheralsTimer.Tick += new System.EventHandler(this.peripheralsTimer_Tick);
-            // 
-            // storageTimer
-            // 
-            this.storageTimer.Interval = 10;
-            this.storageTimer.Tick += new System.EventHandler(this.storageTimer_Tick);
-            // 
-            // sortingTimer
-            // 
-            this.sortingTimer.Interval = 10;
-            this.sortingTimer.Tick += new System.EventHandler(this.sortingTimer_Tick);
+            this.pictureBox3.Location = new System.Drawing.Point(40, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox3.TabIndex = 9;
+            this.pictureBox3.TabStop = false;
             // 
             // Shop
             // 
@@ -915,12 +955,6 @@
             this.splitContainer1.ResumeLayout(false);
             this.flowLayoutPanel1.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).EndInit();
             this.componentsPanel.ResumeLayout(false);
             this.panel13.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
@@ -938,14 +972,22 @@
             this.panel20.ResumeLayout(false);
             this.panel19.ResumeLayout(false);
             this.panel4.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.sortPanel.ResumeLayout(false);
             this.panel6.ResumeLayout(false);
-            this.panel8.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.panel5.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel5.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            this.sortPanel.ResumeLayout(false);
+            this.panel7.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.spanishLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.serbianLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.englishLanguage)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.contrastTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.darkTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lightTheme)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1014,5 +1056,8 @@
         private System.Windows.Forms.Button sortBtn;
         private System.Windows.Forms.Timer sortingTimer;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.Panel panel7;
+        private System.Windows.Forms.Button otherBtn;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }

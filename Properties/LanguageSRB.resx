@@ -156,6 +156,9 @@
   <data name="orderButton" xml:space="preserve">
     <value>NARUCI</value>
   </data>
+  <data name="otherBtn" xml:space="preserve">
+    <value>            Ostalo</value>
+  </data>
   <data name="peripheralsBtn" xml:space="preserve">
     <value>          Periferija</value>
   </data>

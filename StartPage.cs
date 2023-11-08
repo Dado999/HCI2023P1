@@ -44,7 +44,9 @@ namespace Damir_Filipovic_HCI2023
                 {
                     using (MySqlDataReader reader = mySqlCommand.ExecuteReader())
                     {
-                        if (reader.Read())
+                        if(reader.HasRows == false)
+                            MessageBox.Show("User not found!","Error",MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        else if (reader.Read())
                         {
                             string name = reader.GetString("name");
                             string surname = reader.GetString("surname");
@@ -66,15 +68,12 @@ namespace Damir_Filipovic_HCI2023
                             {
                                 MessageBox.Show("Wrong password!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                             }
-                            else
-                                MessageBox.Show("Account doesnt exist!", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-
                         }
                         else
                         {
-                            reader.Close(); // Close the previous reader
+                            reader.Close();
 
-                            MySqlCommand adminCommand = (MySqlCommand)mySqlCommand.Clone(); // Create a new command with the same connection
+                            MySqlCommand adminCommand = (MySqlCommand)mySqlCommand.Clone();
                             adminCommand.CommandText = @"select * from admin where username=@user";
                             adminCommand.Parameters.AddWithValue("@user", usernameField.Text);
 

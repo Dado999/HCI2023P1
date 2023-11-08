@@ -35,10 +35,7 @@ namespace Damir_Filipovic_HCI2023
         {
             InitializeComponent();
             Program.UpdateTheme(this);
-            if (Program.currentUser.language == "English")
-                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
-            else if (Program.currentUser.language == "Serbian")
-                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
+            ChangeLanguage();
             populateFlowLayoutPanel(@"SELECT * FROM product");
         }
 
@@ -73,7 +70,8 @@ namespace Damir_Filipovic_HCI2023
             }
         }
 
-        //Cart and Log out buttons click
+        //Cart, Other and Log out buttons click
+        private void otherBtn_Click(object sender, EventArgs e) { emptyFlowLayoutPanel(true); populateFlowLayoutPanel("SELECT * FROM product WHERE categoryID NOT IN (1,2,3,4,5,6,7,8,9,10,11,12,13);"); }
         private void cartBtn_Click(object sender, EventArgs e)
         {
             new Cart().Show();
@@ -350,7 +348,16 @@ namespace Damir_Filipovic_HCI2023
             Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageESP", typeof(StartPage).Assembly));
             calculatePriceOfCart();
         }
-
+        //Initial language update
+        private void ChangeLanguage()
+        {
+            if (Program.currentUser.language == "English")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageEN", typeof(StartPage).Assembly));
+            else if (Program.currentUser.language == "Serbian")
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageSRB", typeof(StartPage).Assembly));
+            else
+                Program.UpdateLanguage(splitContainer1, new ResourceManager("Damir_Filipovic_HCI2023.Properties.LanguageESP", typeof(StartPage).Assembly));
+        }
         //Sorting
         private void lowHighBtn_Click(object sender, EventArgs e)
         {

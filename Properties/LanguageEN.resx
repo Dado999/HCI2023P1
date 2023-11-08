@@ -156,6 +156,9 @@
   <data name="orderButton" xml:space="preserve">
     <value>ORDER</value>
   </data>
+  <data name="otherBtn" xml:space="preserve">
+    <value>           Other</value>
+  </data>
   <data name="peripheralsBtn" xml:space="preserve">
     <value>         Peripherals</value>
   </data>
